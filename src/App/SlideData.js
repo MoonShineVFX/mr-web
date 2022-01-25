@@ -1,4 +1,4 @@
-export default [
+const array = [
   {
     title: '桃符 ',
     subtitle: 'Tao Fu',
@@ -9,15 +9,15 @@ export default [
     ticket_link:'https://www.klook.com/zh-TW/',
     tag: 'immersive art',
     creativeidea:'「帖畫雞戶上，懸葦索於其上，插桃符其傍，百鬼畏之。」桃符，於東方信仰裡，置於門外，作為鎮守之用。人們為其穿鑿典故，堆疊繁複的形象與符號，具象敬畏二字。在科技躍進、感官迭代的時代格局中。神性如何遷徙，至那仍在橫移的進程峰極。',
-    credit: 
-    '<div class="title">製作公司</div>'+
-    '叁式 Ultra Combos\n' +
-    '\n'+
-    '<div class="title">聲音設計 Sound Design</div>'+
-    '黃鎮洋 Zhen-Yang Huang (Triodust)\n' +
-    '\n'+
-    '<div class="title">弦樂 Strings</div>'+
-    '龍俊宇 Chun-Yu Lung (Joy Music)\n' 
+    credit:
+      '<div class="title">製作公司</div>'+
+      '叁式 Ultra Combos\n' +
+      '\n'+
+      '<div class="title">聲音設計 Sound Design</div>'+
+      '黃鎮洋 Zhen-Yang Huang (Triodust)\n' +
+      '\n'+
+      '<div class="title">弦樂 Strings</div>'+
+      '龍俊宇 Chun-Yu Lung (Joy Music)\n'
     ,
     images:['project01/album/mobi_act02.jpg' , 'project01/album/mobi_act03.jpg', 'project01/album/mobi_act04.jpg']
   },
@@ -31,7 +31,7 @@ export default [
     ticket_link:'https://www.klook.com/zh-TW/',
     tag: 'MR SHOW',
     creativeidea:'據山海經記載，帝江住在西方天山，能歌善舞，是山神，也被原始先民視為歌舞之神。從上古時代開始，人們便以歌舞訴天地鬼神，歌舞是和眾神溝通的橋樑。《帝江化生》引用了其中概念，將帝江以山神形象化為人形，與兩隻仙鶴幻化的精怪，一同在月明星稀之森，奏出震天憾地的歌謠。',
-    credit: 
+    credit:
       '<div class="title">製作公司</div>'+
       '夢想動畫 MoonShine Animation\n'+
       '\n'+
@@ -107,13 +107,15 @@ export default [
     ticket_link:'https://www.klook.com/zh-TW/',
     tag: 'MR SHOw',
     creativeidea:'《生命狂歡曲系列》為科技與藝術共譜的魔法，有趣的生物知識幻化成栩栩如生的沈浸式互動劇場；誠摯邀請各位來到夢境現實，跟著Dolce導演一同體驗國際級的新媒體互動劇。',
-    credit: 
-    '<div class="title">製作公司</div>'+
-    '夢想動畫 MoonShine Animation\n' +
-    '\n'+
-    '<div class="title">導演 Director</div>'+
-    '王舒音 Dolce Wang\n'
+    credit:
+      '<div class="title">製作公司</div>'+
+      '夢想動畫 MoonShine Animation\n' +
+      '\n'+
+      '<div class="title">導演 Director</div>'+
+      '王舒音 Dolce Wang\n'
     ,
-    images:['project03/album/mobi_act01.jpg' , 'project03/album/mobi_act02.jpg', 'project03/album/mobi_act03.jpg']
+    images: ['project03/album/mobi_act01.jpg' , 'project03/album/mobi_act02.jpg', 'project03/album/mobi_act03.jpg']
   }
-]
+];
+
+export default array;

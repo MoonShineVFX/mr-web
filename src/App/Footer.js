@@ -6,15 +6,13 @@ function Footer() {
       fetch(`${process.env.PUBLIC_URL}/peoples.json`)
         .then((r) => r.json())
         .then((data) =>{
-            console.log(data.data)
             setPeople(data.data)
       })
-     
     })
-    
+
     return (
         <div className="footer" >
-            <div>© 2020 - Moondream Reality</div> 
+            <div>© 2020 - Moondream Reality</div>
             {/* <div>瀏覽人次: {parseInt(7237) +parseInt(people)}</div>   */}
         </div>
     )

@@ -11,8 +11,6 @@ import Banner from './Banner'
 import Footer from './Footer'
 import Social from './Social'
 import Precaution from './Precaution'
-import Hours from './hours'
-import FloatContent from './FloatContent'
 import FbVideo from './FbVideo'
 //data
 import slideData from './SlideData'
@@ -29,10 +27,9 @@ function App() {
     <About/>
     <Double/>
     <Precaution/>
-    <Hours/>
     <Report/>
-    <Partner title='指導單位' logos = {suppData} />
-    <Partner title='合作夥伴' logos = {partnerData}/>
+    <Partner title="指導單位" logos = {suppData} />
+    <Partner title="合作夥伴" logos = {partnerData}/>
     <Banner/>
     <Footer/>
   </React.Fragment>
@@ -40,3 +37,5 @@ function App() {
 }
 
 export default App;
+
+// https://g.page/moondreamreality?share
