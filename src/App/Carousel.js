@@ -54,10 +54,7 @@ function Carousel ({slides}) {
                       <div className="description">{s.description}</div>
                     </div>
                     <div className="btnGrp">
-                      <a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" className="btn blue">
-                        購票 <br/>
-                        <span>*是否預約成功，皆以電子郵件通知為主</span>
-                      </a>
+                      <a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" className="btn blue">購票</a>
                     </div>
 
                   </div>
