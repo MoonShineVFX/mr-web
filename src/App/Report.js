@@ -1,7 +1,9 @@
 import React from 'react'
 
 import GoogleMapReact from 'google-map-react';
-import { styles } from './CustomMapStyle'
+import { styles } from './CustomMapStyle';
+import { key } from './key';
+
 function Report() {
     const mapStyles = {
       center: {
@@ -120,6 +122,7 @@ function Report() {
               <div className="item-map-content">
               <div className="item-map-googlemap">
                 <GoogleMapReact
+                    bootstrapURLKeys={{ key }}
                     defaultCenter={mapStyles.center}
                     defaultZoom={mapStyles.zoom}
                     options={createMapOptions}
