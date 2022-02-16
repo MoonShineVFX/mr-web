@@ -1,8 +1,9 @@
 import React from 'react'
-
 import GoogleMapReact from 'google-map-react';
 import { styles } from './CustomMapStyle';
-import { key } from './key';
+// import { key } from './key';
+
+// map id: 5115396ae6b24300
 
 function Report() {
     const mapStyles = {
@@ -12,25 +13,25 @@ function Report() {
       },
       zoom: 16
     };
+
     function createMapOptions(maps) {
       return {
         styles
       }
     }
+
     const AnyReactComponent = ({ text }) =>
       <div style={{
         color: 'white',
-        padding: '15px 10px',
-        display: 'inline-flex',
+        backgroundColor: 'gray',
+        padding: '10px 10px',
         textAlign: 'center',
-        alignItems: 'center',
-        justifyContent: 'center',
         borderRadius: '5px',
-        fontWeight:'100',
         transform: 'translate(-50%, -50%)',
-        width:'15px'
+        width:'110px',
       }}>
-        <img src="/images/map.png" alt=""/>
+        {/* <img src="/images/map.png" alt=""/> */}
+        {text}
       </div>
     ;
 
@@ -72,6 +73,9 @@ function Report() {
                 </div>
               </div>
             </div>
+            <p style={{ textAlign: 'center' }}>
+              *不定期舉辦優惠活動，詳請查閱<a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" style={{ color: 'white', margin: '0 4px' }}>KKday</a>售票網頁
+            </p>
           </div>
 
           <div className="items ">
@@ -122,20 +126,21 @@ function Report() {
               <div className="item-map-content">
               <div className="item-map-googlemap">
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key }}
+                    bootstrapURLKeys={{ key: 'AIzaSyBjkWFDxcurH5JAn2ke9-f2gAd_qrV4YTA' }}
                     defaultCenter={mapStyles.center}
                     defaultZoom={mapStyles.zoom}
-                    options={createMapOptions}
+                    // options={createMapOptions}
                 >
                   <AnyReactComponent
                     lat={mapStyles.center.lat}
                     lng={mapStyles.center.lng}
+                    text="夢境現實 Moondream Reality"
                   />
                 </GoogleMapReact>
               </div>
               </div>
               <div className="item-map-text">
-                週五 - 週日 13:00-19:00 <br/>
+                週五 - 週日 13:30-20:00 <br/>
                 802 高雄市苓雅區海邊路 15 號
               </div>
             </div>
