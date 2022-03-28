@@ -1,9 +1,13 @@
 import React from 'react'
 import { ReactComponent as Fbicon } from '../images/facebook-f-brands.svg'
 import { ReactComponent as Igicon } from '../images/instagram-brands.svg'
-
+import { useTranslation } from 'react-i18next';
  
 function Social() {
+    const { t, i18n } = useTranslation();
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
     return (
       <div className="social">
         <ul>
@@ -16,6 +20,12 @@ function Social() {
             <a href="https://www.instagram.com/moondreamreality_tw/" target="_blank" rel="noreferrer">
               <Igicon className="social-icon" alt="icon" />
             </a>
+          </li>
+          <li>
+            <p onClick={() => changeLanguage("zh-tw")}>繁</p>
+          </li>
+          <li>
+            {/* <p onClick={() => changeLanguage("en")}>EN</p> */}
           </li>
         </ul>
       </div>

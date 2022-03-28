@@ -1,11 +1,13 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react';
 import { styles } from './CustomMapStyle';
+import { useTranslation,Trans  } from 'react-i18next';
 // import { key } from './key';
 
 // map id: 5115396ae6b24300
 
 function Report() {
+    const { t, i18n } = useTranslation();
     const mapStyles = {
       center: {
         lat: 22.616908734023188,
@@ -39,34 +41,34 @@ function Report() {
         <div className="report">
           <div className="container">
             <div className="main-title">
-              <h1>參觀資訊</h1>
+              <h1>{t('visitInfo_title')}</h1>
             </div>
           </div>
 
           <div className="container">
             <div className="items">
               <div className="report-content">
-                <div className="title">時間</div>
+                <div className="title">{t('visitInfo_time_title')}</div>
                 <div className="item item-time" data-aos="fade-up">
-                  <div className="item-time-number">30 <span>分鐘</span></div>
-                  <div className="item-time-desc">包含設備操作、簡易導覽、沈浸互動等完整體驗</div>
+                  <div className="item-time-number">30 <span>{t('minute')}</span></div>
+                  <div className="item-time-desc">{t('visitInfo_time_desc')}</div>
                 </div>
               </div>
               <div className="report-content">
-                <div className="title">票價</div>
+                <div className="title">{t('visitInfo_ticket_title')}</div>
                 <div className="item item-price">
                   <div className="item-price-content" data-aos="fade-up">
                     <div className="item-price-content-border">
-                      <div>MR 眼鏡</div>
+                      <div>{t('mrGlass')}</div>
                       <div>+</div>
-                      <div>沈浸式投影</div>
+                      <div>{t('immersive_projection')}</div>
                     </div>
                     <div className="item-price-content-number">NT$ <span>400</span></div>
 
                   </div>
                   <div className="item-price-content" data-aos="fade-up" data-aos-delay="500">
                     <div className="item-price-content-border">
-                      <div>沈浸式投影</div>
+                      <div>{t('immersive_projection')}</div>
                     </div>
                     <div className="item-price-content-number">NT$ <span>200</span></div>
                   </div>
@@ -74,7 +76,10 @@ function Report() {
               </div>
             </div>
             <p style={{ textAlign: 'center' }}>
-              *不定期舉辦優惠活動，詳請查閱<a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" style={{ color: 'white', margin: '0 4px' }}>KKday</a>售票網頁
+              <Trans i18nKey={'visitInfo_ticket_notice'}>
+                *不定期舉辦優惠活動，詳請查閱<a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" style={{ color: 'white', margin: '0 4px' }}>KKday</a>售票網頁
+              </Trans>
+              
             </p>
           </div>
 
@@ -82,23 +87,24 @@ function Report() {
             <div className="report-content">
               <div className="item-parallax bg1" data-aos="flip-up">
                 <div className="item-parallax-content">
-                  <div className="item-parallax-content-title">自行開車</div>
-                  <div>國道1號 - 高雄交流道 (中正路出口) 下 - 中正一路 - 五福一路至三路 - 英雄路 - 海邊路</div>
-                  <div>至光榮碼頭站附設停車場，再步行。</div>
+                  <div className="item-parallax-content-title">{t('traffic1_title')}</div>
+                  <div>{t('traffic1_desc')}</div>
                 </div>
               </div>
               <div className="item-parallax bg2" data-aos="flip-up">
                 <div className="item-parallax-content">
-                  <div className="item-parallax-content-title">捷運轉乘輕軌</div>
-                  <div>搭乘捷運至【凱旋站】或【西子灣站轉】乘高雄輕軌至【光榮碼頭站 C10】，步行約1分鐘</div>
+                  <div className="item-parallax-content-title">{t('traffic2_title')}</div>
+                  <div>{t('traffic2_title')}</div>
                 </div>
               </div>
               <div className="item-parallax bg4" data-aos="flip-up">
                 <div className="item-parallax-content">
-                  <div className="item-parallax-content-title">客運</div>
-                  <div>搭乘【紅18】或【綠1】至【輕軌光榮碼頭站】，步行約1分鐘</div>
-                  <div>搭乘 25、50、77號公車至大立百貨站或高雄女中(真愛碼頭)站，步行約5-10分鐘</div>
-                  <div>搭乘 0北、0南、33、100、168東、168西號公車至【漢神百貨站】，步行約5-10分鐘</div>
+                  <div className="item-parallax-content-title">{t('traffic3_title')}</div>
+                  <Trans i18nKey='traffic3_desc'>
+                    <div>搭乘【紅18】或【綠1】至【輕軌光榮碼頭站】，步行約1分鐘</div> 
+                    <div> 搭乘 25、50、77號 公車至大立百貨站或高雄女中(真愛碼頭)站，步行約5-10分鐘</div> 
+                    <div> 搭乘 0北、0南、33、100、168東、168西號公車至【漢神百貨站】，步行約5-10分鐘</div>
+                  </Trans>
                 </div>
               </div>
             </div>
@@ -118,9 +124,9 @@ function Report() {
           <div className="items" data-aos="fade-right">
             <div className="item-map">
               <div className="item-title">
-
-                夢境現實 <br/> MR 沈浸式劇院
-
+                <Trans i18nKey={'mapInfo_title'}>
+                  夢境現實 <br/> MR 沈浸式劇院
+                </Trans>
               </div>
 
               <div className="item-map-content">
@@ -140,8 +146,8 @@ function Report() {
               </div>
               </div>
               <div className="item-map-text">
-                週五 - 週日 13:30-20:00 <br/>
-                802 高雄市苓雅區海邊路 15 號
+                {t('mapInfo_business_hours')} <br/>
+                {t('mapInfo_business_address')}
               </div>
             </div>
           </div>

@@ -755,12 +755,18 @@ body{
     li{
       margin-right: 15px;
       cursor: pointer;
+      display: flex;
+      align-items: center;
       &:hover{
         .social-icon{
           path{
             fill:#7f99f0;
           }
         }
+      }
+      a{
+        display: flex;
+        align-items: center;
       }
       .social-icon{
         height: 20px;

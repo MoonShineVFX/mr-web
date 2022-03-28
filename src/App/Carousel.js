@@ -1,6 +1,7 @@
 import React, { useState }  from 'react'
 import arrowRight  from '../images/right-arrow.svg'
 import HoverVideoPlayer from 'react-hover-video-player';
+import { useTranslation } from 'react-i18next';
 function Carousel ({slides}) {
     const [open, setOpen] = useState(false)
     const [curr, setCurr] = React.useState(0);
@@ -15,6 +16,7 @@ function Carousel ({slides}) {
       setOpen(false)
 
     }
+    const { t, i18n } = useTranslation();
 
     if (!Array.isArray(slides) || slides.length <= 0) {
       return null;
@@ -41,20 +43,20 @@ function Carousel ({slides}) {
                           <div className="loading-spinner-overlay" />
                         }
                       />
-                    <div className="detail" onClick={ () => setOpen(!open)}>詳情</div>
+                    <div className="detail" onClick={ () => setOpen(!open)}>{t('detail')}</div>
 
                   </div>
 
                   <div className="info">
                     <div className="hashtag">{s.tag}</div>
                     <div className="info-detail">
-                      <h1>{s.title}</h1>
-                      <h2>{s.subtitle}</h2>
+                      <h1> {t(`${s.title}`)}</h1>
+                      {/* <h2>{s.subtitle}</h2> */}
                       <div className="borderLine"></div>
-                      <div className="description">{s.description}</div>
+                      <div className="description">{t(`${s.description}`)}</div>
                     </div>
                     <div className="btnGrp">
-                      <a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" className="btn blue">購票</a>
+                      <a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" className="btn blue">{t('order_ticket')}</a>
                     </div>
 
                   </div>
@@ -68,8 +70,8 @@ function Carousel ({slides}) {
                       <div className="moreInfo-content-desc">
                         {s.creativeidea ?
                           <div>
-                            <div className="title">創作理念</div>
-                            {s.creativeidea}
+                            <div className="title">{t('creativeidea_title')}</div>
+                            {t(`${s.creativeidea}`)}
                           </div> : ''}
                         {s.credit?
                           <div dangerouslySetInnerHTML={ {__html: s.credit.replace(/(?:\r\n|\r|\n)/g, '<br />')} }>

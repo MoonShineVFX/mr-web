@@ -16,7 +16,9 @@ import FbVideo from './FbVideo'
 import slideData from './SlideData'
 import partnerData from './PartnerData'
 import suppData from './SuppData'
+import { useTranslation } from 'react-i18next';
 function App() {
+  const { t, i18n } = useTranslation();
   return (
   <React.Fragment>
     {/* <FloatContent/> */}
@@ -28,8 +30,8 @@ function App() {
     <Double/>
     <Precaution/>
     <Report/>
-    <Partner title="指導單位" logos = {suppData} />
-    <Partner title="合作夥伴" logos = {partnerData}/>
+    <Partner title={t('directed_title')} logos = {suppData} />
+    <Partner title={t('partner_title')} logos = {partnerData}/>
     <Banner/>
     <Footer/>
   </React.Fragment>

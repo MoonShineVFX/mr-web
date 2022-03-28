@@ -1,14 +1,14 @@
 const array = [
   {
-    title: '桃符 ',
+    title: 'slide1_title',
     subtitle: 'Tao Fu',
-    description:'桃符一作，為叁式以新媒體視角窺看傳統信仰的系列作品之一。從考究「門神」彩繪之符碼意義起始，融合 AI 與粒子系統等數位手法，探索傳統與當代光譜中的新融合美學。將宮廟文化蘊含的感官寓意，重新演繹為動態的影像篇章。',
+    description:'slide1_desc_brife',
     cover: 'project01/cover.png',
     video:'project01/video.mp4',
     reserve_link :'https://www.klook.com/zh-TW/',
     ticket_link:'https://www.klook.com/zh-TW/',
     tag: 'immersive art',
-    creativeidea:'「帖畫雞戶上，懸葦索於其上，插桃符其傍，百鬼畏之。」桃符，於東方信仰裡，置於門外，作為鎮守之用。人們為其穿鑿典故，堆疊繁複的形象與符號，具象敬畏二字。在科技躍進、感官迭代的時代格局中。神性如何遷徙，至那仍在橫移的進程峰極。',
+    creativeidea:'slide1_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
       '叁式 Ultra Combos\n' +
@@ -22,15 +22,15 @@ const array = [
     images:['project01/album/mobi_act02.jpg' , 'project01/album/mobi_act03.jpg', 'project01/album/mobi_act04.jpg']
   },
   {
-    title: "帝江化生",
+    title: "slide2_title",
     subtitle: "Rebirth",
-    description:'《山海經．西山經》：… 有神焉，其狀如黃囊，赤如丹火，六足四翼，渾敦無面目，是識歌舞，實惟帝江也。',
+    description:'slide2_desc_brife',
     cover: "project02/cover.jpg",
     video:'project02/video123.mp4',
     reserve_link :'https://www.klook.com/zh-TW/',
     ticket_link:'https://www.klook.com/zh-TW/',
     tag: 'MR SHOW',
-    creativeidea:'據山海經記載，帝江住在西方天山，能歌善舞，是山神，也被原始先民視為歌舞之神。從上古時代開始，人們便以歌舞訴天地鬼神，歌舞是和眾神溝通的橋樑。《帝江化生》引用了其中概念，將帝江以山神形象化為人形，與兩隻仙鶴幻化的精怪，一同在月明星稀之森，奏出震天憾地的歌謠。',
+    creativeidea:'slide2_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
       '夢想動畫 MoonShine Animation\n'+
@@ -98,15 +98,15 @@ const array = [
     images:['project02/album/act01.jpg' , 'project02/album/act03.jpg']
   },
   {
-    title: '生命狂歡曲系列—鶴之舞 ',
+    title: 'slide3_title',
     subtitle: 'Flamingo',
-    description:'民眾可透過MR眼鏡，觀察在眼鏡與投影等介質中生活的動物們，並透過手勢互動可以陪伴與幫助動物成長，由民眾一手帶大的動物們，將帶來一場沈浸式歌舞秀。',
+    description:'slide3_desc_brife',
     cover: 'project03/cover.png',
     video:'project03/video.mp4',
     reserve_link :'https://www.klook.com/zh-TW/',
     ticket_link:'https://www.klook.com/zh-TW/',
     tag: 'MR SHOw',
-    creativeidea:'《生命狂歡曲系列》為科技與藝術共譜的魔法，有趣的生物知識幻化成栩栩如生的沈浸式互動劇場；誠摯邀請各位來到夢境現實，跟著Dolce導演一同體驗國際級的新媒體互動劇。',
+    creativeidea:'slide3_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
       '夢想動畫 MoonShine Animation\n' +
