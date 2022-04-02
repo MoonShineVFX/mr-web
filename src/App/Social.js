@@ -17,7 +17,7 @@ function Social() {
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/moondreamreality_tw/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/moondream.tw/" target="_blank" rel="noreferrer">
               <Igicon className="social-icon" alt="icon" />
             </a>
           </li>
