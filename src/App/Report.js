@@ -100,11 +100,14 @@ function Report() {
               <div className="item-parallax bg4" data-aos="flip-up">
                 <div className="item-parallax-content">
                   <div className="item-parallax-content-title">{t('traffic3_title')}</div>
-                  <Trans i18nKey='traffic3_desc'>
-                    <div>搭乘【紅18】或【綠1】至【輕軌光榮碼頭站】，步行約1分鐘</div> 
-                    <div> 搭乘 25、50、77號 公車至大立百貨站或高雄女中(真愛碼頭)站，步行約5-10分鐘</div> 
-                    <div> 搭乘 0北、0南、33、100、168東、168西號公車至【漢神百貨站】，步行約5-10分鐘</div>
-                  </Trans>
+                  <div className="item-parallax-content-text">
+                    <Trans i18nKey='traffic3_desc'>
+                      <div>搭乘【紅18】或【綠1】至【輕軌光榮碼頭站】，步行約1分鐘</div> 
+                      <div> 搭乘 25、50、77號 公車至大立百貨站或高雄女中(真愛碼頭)站，步行約5-10分鐘</div> 
+                      <div> 搭乘 0北、0南、33、100、168東、168西號公車至【漢神百貨站】，步行約5-10分鐘</div>
+                    </Trans>
+                  </div>
+
                 </div>
               </div>
             </div>
