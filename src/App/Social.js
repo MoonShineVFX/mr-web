@@ -25,7 +25,7 @@ function Social() {
             <p onClick={() => changeLanguage("zh-tw")}>繁</p>
           </li>
           <li>
-            {/* <p onClick={() => changeLanguage("en")}>EN</p> */}
+            <p onClick={() => changeLanguage("en")}>EN</p>
           </li>
         </ul>
       </div>

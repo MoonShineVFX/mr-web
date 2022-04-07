@@ -130,20 +130,13 @@ function Report() {
               </div>
 
               <div className="item-map-content">
-              <div className="item-map-googlemap">
-                <GoogleMapReact
-                    bootstrapURLKeys={{ key: 'AIzaSyBjkWFDxcurH5JAn2ke9-f2gAd_qrV4YTA' }}
-                    defaultCenter={mapStyles.center}
-                    defaultZoom={mapStyles.zoom}
-                    // options={createMapOptions}
-                >
-                  <AnyReactComponent
-                    lat={mapStyles.center.lat}
-                    lng={mapStyles.center.lng}
-                    text="夢境現實 Moondream Reality"
-                  />
-                </GoogleMapReact>
-              </div>
+                <div className="item-map-svg">
+                  <a href="https://g.page/moondreamreality?share" target="_blank" rel="noreferrer">
+                   <img src={process.env.PUBLIC_URL + '/images/ig_map.svg'} alt="" />
+                  </a>
+                 
+                </div>
+
               </div>
               <div className="item-map-text">
                 {t('mapInfo_business_hours')} <br/>
