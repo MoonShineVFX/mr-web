@@ -94,7 +94,7 @@ function Report() {
               <div className="item-parallax bg2" data-aos="flip-up">
                 <div className="item-parallax-content">
                   <div className="item-parallax-content-title">{t('traffic2_title')}</div>
-                  <div>{t('traffic2_title')}</div>
+                  <div>{t('traffic2_desc')}</div>
                 </div>
               </div>
               <div className="item-parallax bg4" data-aos="flip-up">
