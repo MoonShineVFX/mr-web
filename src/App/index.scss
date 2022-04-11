@@ -765,12 +765,24 @@ body{
       cursor: pointer;
       display: flex;
       align-items: center;
+
       &:hover{
         .social-icon{
           path{
             fill:#7f99f0;
           }
         }
+      }
+      &.active{
+        p{
+          background: #333232;
+          border-radius: 3px;
+        }
+      }
+      p , a {
+        padding:  4px 10px;
+        transition: 0.3s;
+        border-radius:0px;
       }
       a{
         display: flex;

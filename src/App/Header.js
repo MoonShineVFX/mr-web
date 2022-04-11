@@ -2,10 +2,11 @@ import React ,{useEffect}from 'react'
 
 import whLogo from '../images/whlogowithoutword.svg'
 import mrTitle from '../images/title.png'
-import HoverVideoPlayer from 'react-hover-video-player';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { useTranslation } from 'react-i18next';
 function Header() {
+  const { t, i18n } = useTranslation();
   useEffect(()=>{
     Aos.init({duration: 1500})
   })
@@ -18,7 +19,7 @@ function Header() {
           <img src={mrTitle} alt="夢境現實 Moondream reality"  title="夢境現實 Moondream reality"/>
         </div>
         <div className="standardword-cht">
-          夢境現實
+          {t('standardword_cht')}
         </div>
         
       </div>

@@ -21,10 +21,10 @@ function Social() {
               <Igicon className="social-icon" alt="icon" />
             </a>
           </li>
-          <li>
-            <p onClick={() => changeLanguage("zh-tw")}>繁</p>
+          <li className={i18n.language === 'zh-TW' ? 'active' : ''}>
+            <p onClick={() => changeLanguage("zh-TW")}>繁</p>
           </li>
-          <li>
+          <li className={i18n.language === 'en' ? 'active' : ''}>
             <p onClick={() => changeLanguage("en")}>EN</p>
           </li>
         </ul>
