@@ -135,7 +135,7 @@ function Report() {
               <div className="item-map-content">
                 <div className="item-map-svg">
                   <a href="https://g.page/moondreamreality?share" target="_blank" rel="noreferrer">
-                   <img src={process.env.PUBLIC_URL + '/images/ig_map.svg'} alt="" />
+                   <img src={process.env.PUBLIC_URL + '/images/2022/'+ t('mr_map_name_svg')} alt="" />
                   </a>
                  
                 </div>
