@@ -36,11 +36,17 @@ function Carousel ({slides}) {
                 >
                   <div className="cover">
                       <ReactPlayer
+                        
                         className='react-player'
                         url={currData.video}
                         width='100%'
                         height='100%'
                         controls
+                        config={{
+                          youtube: {
+                            playerVars: { rel: 0,ecver: 2, showinfo:0,loop:1 }
+                          }
+                        }}
                       />
                     {/* <div className="detail" onClick={ () => setOpen(!open)}>{t('detail')}</div> */}
 
