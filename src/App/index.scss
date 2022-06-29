@@ -86,6 +86,7 @@ body{
 }
 .carousel-container-outer{
   overflow: hidden;
+  position: relative;
 }
 .carousel{
   
@@ -106,7 +107,7 @@ body{
     // left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s ease;
     flex-shrink: 0;
     &.active{
@@ -116,11 +117,16 @@ body{
      flex:3; 
     //  background: #000;
      position: relative;
-     min-height: 411px;
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
      overflow: hidden;
+     padding-top: 50% ;
+      .react-player{
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
     .hovervideo{
       img{
         height: 100%;

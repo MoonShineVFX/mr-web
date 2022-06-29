@@ -8,7 +8,7 @@ function FbVideo() {
               src="https://www.youtube.com/embed/TaPtU2ddLNA?rel=0" 
               width="448" 
               height="252"
-              style={{border:"none", overflow:"hidden", width:'100%', minHeight:"414px"}}
+              style={{border:"none", overflow:"hidden", width:'100%'}}
               scrolling="no" 
               frameBorder="0" 
               allowFullScreen
