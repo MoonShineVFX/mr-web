@@ -42,9 +42,10 @@ function Carousel ({slides}) {
                         width='100%'
                         height='100%'
                         controls
+                        loop
                         config={{
                           youtube: {
-                            playerVars: { rel: 0,ecver: 2, showinfo:0,loop:1 }
+                            playerVars: { rel: 0,ecver: 2, showinfo:0 }
                           }
                         }}
                       />
