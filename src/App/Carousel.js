@@ -1,6 +1,7 @@
 import React, { useState }  from 'react'
 import arrowRight  from '../images/right-arrow.svg'
 import HoverVideoPlayer from 'react-hover-video-player';
+import ReactPlayer from 'react-player'
 import { useTranslation } from 'react-i18next';
 function Carousel ({slides}) {
     const [open, setOpen] = useState(false)
@@ -33,27 +34,25 @@ function Carousel ({slides}) {
                   aria-hidden={i !== curr}
                 >
                   <div className="cover">
-                      <HoverVideoPlayer
-                        className="hovervideo"
-                        videoSrc={process.env.PUBLIC_URL+'/images/'+s.video}
-                        pausedOverlay={
-                          <img src={process.env.PUBLIC_URL+'/images/'+ s.cover} alt={s.title} />
-                        }
-                        loadingOverlay={
-                          <div className="loading-spinner-overlay" />
-                        }
+                      <ReactPlayer
+                        className='react-player'
+                        url={s.video}
+                        width='100%'
+                        height='100%'
                       />
                     <div className="detail" onClick={ () => setOpen(!open)}>{t('detail')}</div>
 
                   </div>
 
                   <div className="info">
-                    <div className="hashtag">{s.tag}</div>
+                    
                     <div className="info-detail">
                       <h1> {t(`${s.title}`)}</h1>
+                      <div className="hashtag">{s.tag}</div>
                       {/* <h2>{s.subtitle}</h2> */}
                       <div className="borderLine"></div>
                       <div className="description">{t(`${s.description}`)}</div>
+                      
                     </div>
                     <div className="btnGrp">
                       <a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" className="btn blue">{t('order_ticket')}</a>

@@ -133,7 +133,7 @@ body{
        padding: 5px 15px;
        border: 1px solid #fff;
        bottom: 5%;
-       right: 5%;
+       left: 5%;
        z-index: 10;
      }
      img{
@@ -152,22 +152,22 @@ body{
       background: #292929;
       position: relative;
       .hashtag{
-        position: absolute;
-        top: 0;
-        right:0;
+        position: relative;
         font-size: 12px;
         background: rgb(56, 56, 56);
         padding:5px;
         color:rgb(202, 202, 202);
         text-transform: uppercase;
         transition: 0.3s;
+        margin-top: 5px;
+        margin-bottom: 5px;
         &:hover{
           color:rgb(194, 178, 146);
         }
       }
       .info-detail{
         box-sizing: border-box;
-        padding:50px 20px;
+        padding:20px 20px;
         height: 83%;
         color:#ddd;
         h1{
