@@ -39,6 +39,7 @@ function Carousel ({slides}) {
                         url={s.video}
                         width='100%'
                         height='100%'
+                        controls
                       />
                     <div className="detail" onClick={ () => setOpen(!open)}>{t('detail')}</div>
 
