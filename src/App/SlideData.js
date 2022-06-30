@@ -7,8 +7,8 @@ const array = [
     video:'https://youtu.be/yPCco2VVzF4',
     reserve_link :'https://www.klook.com/zh-TW/',
     ticket_link:'https://www.klook.com/zh-TW/',
-    tag: 'MR互動體驗 + 沉浸式投影',
-    creativeidea:'slide1_createive_idea',
+    tag: 'MR互動沉浸式混合體驗',
+    creativeidea:'slide4_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
       '夢想動畫 MoonShine Animation\n' +
@@ -26,7 +26,7 @@ const array = [
     video:'https://youtu.be/nERe6qYmMJc',
     reserve_link :'https://www.klook.com/zh-TW/',
     ticket_link:'https://www.klook.com/zh-TW/',
-    tag: 'MR互動體驗 + 沉浸式投影',
+    tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide2_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
@@ -45,7 +45,7 @@ const array = [
     video:'https://youtu.be/DRgQxNZGLGE',
     reserve_link :'https://www.klook.com/zh-TW/',
     ticket_link:'https://www.klook.com/zh-TW/',
-    tag: 'MR互動體驗 + 沉浸式投影',
+    tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide3_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
@@ -65,7 +65,7 @@ const array = [
     reserve_link :'https://www.klook.com/zh-TW/',
     ticket_link:'https://www.klook.com/zh-TW/',
     tag: '沉浸式投影',
-    creativeidea:'slide1_createive_idea',
+    creativeidea:'slide5_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
       '光電吉樹\n' +
