@@ -1,80 +1,94 @@
-import React, { useState }  from 'react'
+import React, { useEffect, useState }  from 'react'
 import arrowRight  from '../images/right-arrow.svg'
 import HoverVideoPlayer from 'react-hover-video-player';
+import ReactPlayer from 'react-player'
 import { useTranslation } from 'react-i18next';
 function Carousel ({slides}) {
     const [open, setOpen] = useState(false)
     const [curr, setCurr] = React.useState(0);
+    const [currData, setCurrData] = React.useState("");
+    const { t, i18n } = useTranslation();
     const { length } = slides;
 
     const goToNext = () => {
       setCurr(curr === length - 1 ? 0 : curr + 1 );
-      setOpen(false)
+      setCurrData(slides[curr === length - 1 ? 0 : curr + 1])
     }
     const goToPrev = () => {
       setCurr(curr <= 0 ?  length-1 : curr - 1 );
-      setOpen(false)
+      setCurrData(slides[curr <= 0 ?  length-1 : curr - 1])
 
     }
-    const { t, i18n } = useTranslation();
+    
+    useEffect(()=>{
+      setCurrData(slides[0])
+    },[])
 
-    if (!Array.isArray(slides) || slides.length <= 0) {
-      return null;
-    }
+    console.log(currData)
     return (
         <section className="carousel-section">
           <div className="carousel-container-outer">
             <div className="carousel">
-              {slides.map((s , i) => (
+ 
                 <div
-                  className={i === curr ? "carousel-item active" : "carousel-item"}
-                  style={{order: i  === curr ? '1' : '2'}}
-                  key={i}
-                  aria-hidden={i !== curr}
+                  className="carousel-item"
+                  key={currData.title}
                 >
                   <div className="cover">
-                      <HoverVideoPlayer
-                        className="hovervideo"
-                        videoSrc={process.env.PUBLIC_URL+'/images/'+s.video}
-                        pausedOverlay={
-                          <img src={process.env.PUBLIC_URL+'/images/'+ s.cover} alt={s.title} />
-                        }
-                        loadingOverlay={
-                          <div className="loading-spinner-overlay" />
-                        }
+                      <ReactPlayer
+                        
+                        className='react-player'
+                        url={currData.video}
+                        width='100%'
+                        height='100%'
+                        controls
+                        loop
+                        config={{
+                          youtube: {
+                            playerVars: { rel: 0,ecver: 2, showinfo:0 }
+                          }
+                        }}
                       />
-                    <div className="detail" onClick={ () => setOpen(!open)}>{t('detail')}</div>
+                    {/* <div className="detail" onClick={ () => setOpen(!open)}>{t('detail')}</div> */}
 
                   </div>
 
                   <div className="info">
-                    <div className="hashtag">{s.tag}</div>
+                    
                     <div className="info-detail">
-                      <h1> {t(`${s.title}`)}</h1>
+                      <h1> {t(`${currData.title}`)}</h1>
+                      <div className="hashtag">{currData.tag}</div>
                       {/* <h2>{s.subtitle}</h2> */}
                       <div className="borderLine"></div>
-                      <div className="description">{t(`${s.description}`)}</div>
+                      <div className="description">{t(`${currData.description}`)}</div>
+                      
                     </div>
                     <div className="btnGrp">
                       <a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" className="btn blue">{t('order_ticket')}</a>
                     </div>
 
                   </div>
-                  <div className={`moreInfo ${i === curr && open ? "show" : " "}`}>
+                  <div className={`moreInfo show`}>
                     <div className="moreInfo-content">
                       <div className="moreInfo-content-album">
-                        {s.images.map((d,idx) =>(
-                            <div key={idx}><img src={process.env.PUBLIC_URL+'/images/'+d} alt=""/></div>
-                          ))}
+                        {
+                          currData ? 
+                          currData.images.map((item,index)=>{
+                            return(
+                              <div key={index}><img src={process.env.PUBLIC_URL+'/images/'+item} alt=""/></div>
+                            )
+                          }):null
+                        }
+             
                       </div>
                       <div className="moreInfo-content-desc">
-                        {s.creativeidea ?
+                        {currData.creativeidea ?
                           <div>
                             <div className="title">{t('creativeidea_title')}</div>
-                            {t(`${s.creativeidea}`)}
+                            {t(`${currData.creativeidea}`)}
                           </div> : ''}
-                        {s.credit?
-                          <div dangerouslySetInnerHTML={ {__html: s.credit.replace(/(?:\r\n|\r|\n)/g, '<br />')} }>
+                        {currData.credit?
+                          <div dangerouslySetInnerHTML={ {__html: currData.credit.replace(/(?:\r\n|\r|\n)/g, '<br />')} }>
                           </div> : ''}
                       </div>
 
@@ -83,7 +97,7 @@ function Carousel ({slides}) {
 
                   </div>
                 </div>
-              ))}
+ 
             </div>
           </div>
           <div className="navBtnGrp">

@@ -18,17 +18,28 @@
       }
     }
     .carousel-section{
-      width: 100%;
+      width: 90%;
+      margin: 0 auto ;
       .carousel{
         min-height: 300px;
         .carousel-item{
           flex-direction: column;
           .cover{
-            min-height: 200px;
+            min-height: auto;
+            position: relative;
+            padding-top: 56.25% ;
+            .react-player{
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
           }
           .info{
             .btnGrp{
               height: 70px;
+            }
+            .hashtag{
+              margin-left: 10px;
             }
             .info-detail{
               padding: 8px 20px;
@@ -58,11 +69,18 @@
       }
       .navBtnGrp{
         width: 100%;
-        top: 30%;
+        top: 100px;
       }
     }
     .container{
       width: 92%;
+    }
+    .fbvideo-container{
+      .fbvideo-content{
+        iframe{
+          min-height: auto;
+        }
+      }
     }
     .about{
       .title{
