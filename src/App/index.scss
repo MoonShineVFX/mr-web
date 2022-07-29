@@ -401,7 +401,7 @@ body{
 
 
 /*參觀注意事項*/ 
-.report, .precaution{
+.report, .precaution , .guide{
   .main-title{
     -webkit-text-stroke: 0.3px rgb(190, 190, 190);
     color: rgba(0, 0, 0, 0);
@@ -419,7 +419,7 @@ body{
     align-items: center;
     margin-top: 50px;
     width: 100%;
-    .report-content{
+    .report-content , .content{
       margin-top: 20px;
       display: flex;
       flex-direction: column;
@@ -554,7 +554,44 @@ body{
       .bg4{
         background-image: url('../images/traffic/mr_4.jpg');
       }
-      
+      .dates_info{
+        .dates_date{
+          letter-spacing: 2px;
+          margin-bottom: 8px;
+          span{
+            font-size: 32px;
+            font-weight: bold;
+          }
+        }
+      }
+      .guide_table{
+        border: 2px solid rgba(255, 255, 255, 0.514);
+        border-collapse: collapse;
+        width: 80%;
+        td,th{
+          border-bottom: 1pt solid rgba(255, 255, 255, 0.514);
+          border-right: 1pt solid rgba(255, 255, 255, 0.514);
+        } 
+        thead{
+          tr{
+            background: #0b0c0e7a;
+            th{
+              padding: 8px;
+            }
+          }
+        }
+        tbody{
+          tr{
+            
+            text-align: center;
+            background: #171a1d;
+            td{
+              padding: 10px;
+              letter-spacing: 1.5px;
+            }
+          }
+        }
+      }
     }
     .afterblue{
       &:after{

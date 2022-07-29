@@ -12,6 +12,7 @@ import Footer from './Footer'
 import Social from './Social'
 import Precaution from './Precaution'
 import FbVideo from './FbVideo'
+import Guide from './Guide';
 //data
 import slideData from './SlideData'
 import partnerData from './PartnerData'
@@ -26,6 +27,7 @@ function App() {
     <Header/>
     <FbVideo/>
     <Carousel slides={slideData} />
+    <Guide />
     <About/>
     <Double/>
     <Precaution/>
