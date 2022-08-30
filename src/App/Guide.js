@@ -51,7 +51,7 @@ function Guide() {
               </thead>
               <tbody>
                 {
-                  data.map((item,index)=>{
+                  data_9.map((item,index)=>{
                     return(
                       <tr>
                         <td className='time'>{item.time}</td>
