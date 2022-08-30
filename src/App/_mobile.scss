@@ -130,6 +130,20 @@
         }
       }
     }
+    .guide{
+      .items{
+        .content{
+        .dates_info{
+          flex-direction: column;
+          .dates_date{
+            width: 100%;
+          }
+        }
+        }
+
+      }
+
+    }
     .partner {
       .title{
         font-size: 30px;
