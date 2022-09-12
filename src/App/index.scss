@@ -438,6 +438,28 @@ body{
         margin-top: 50px;
         margin-bottom: 50px;
       }
+      .table-title{
+        font-size: 32px;
+        color:#e1e3e9;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+      }
+      .data-list{
+        display: flex;
+        justify-content: space-between;
+        gap:15px;
+        font-size: 16px;
+        div{
+          padding: 6px 10px;
+          background: #3e5dcd;
+          border-radius: 3px;
+          cursor: pointer;
+          transition: 0.3s;
+          &:hover{
+            background: #5a79eb;
+          }
+        }
+      }
       .dates_info{
 
       }

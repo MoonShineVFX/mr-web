@@ -1,71 +1,79 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { useTranslation,Trans  } from 'react-i18next';
+import { motion,AnimatePresence } from "framer-motion"
+import {month_data, data_9,data} from './ScheduleData'
 function Guide() {
   const { t, i18n } = useTranslation();
-  const data = [
-    { time:"14:00 - 14:30",	show:"河馬圓舞曲 + 帝江化生",	title:"MR 互動體驗"},
-    { time:"15:00 - 15:30",	show:"光電音造盤絲洞",	title:"沉浸式投影"},
-    { time:"15:30 – 16:00",	show:"桃符",	title:"沉浸式投影"},
-    { time:"16:00 – 16:30",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
-    { time:"17:00 – 17:30",	show:"光電音造盤絲洞",	title:"沉浸式投影"},
-    { time:"17:30 – 18:00",	show:"桃符",	title:"沉浸式投影"},
-    { time:"18:00 - 18:30",	show:"帝江化生 + 鶴之舞",	title:"MR 互動體驗"}
-  ]
-  const data_9 = [
-    { time:"14:00 - 14:30",	show:"光電音造盤絲洞",	title:"沉浸式投影"},
-    { time:"14:30 - 15:00",	show:"杏仁 ミル",	title:"MR 互動體驗"},
-    { time:"15:00 – 15:30",	show:"杏仁 ミル",	title:"MR 互動體驗"},
-    { time:"16:00 – 16:30",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
-    { time:"17:00 – 17:30",	show:"河馬圓舞曲 + 帝江化生",	title:"MR 互動體驗"},
-    { time:"18:00 – 18:30",	show:"桃符",	title:"沉浸式投影"},
-    { time:"18:30 - 19:00",	show:"光電音造盤絲洞",	title:"沉浸式投影"}
-  ]
-  
+  const [currentData, setCurrentData] = useState(data[0])
+  const [show , setShow] = useState(true)
+  const handleMonthClick = (index)=>{
+    setShow(false)
+    
+    setTimeout(()=>{
+      setCurrentData(data[index])
+      setShow(true)
+    },1000)
+    
+  }
   return (
     <div className='guide'>
       <div className="container">
           <div className="main-title">
-            <h1>{t('sep_title')}</h1>
+            <h1>{t('guide_title')}</h1>
           </div>
       </div>
+      
       <div className="container">
         <div className="items">
           <div className="content">
-            <div className="title">{t('guide_date_title')}</div>
-            <div className="item dates_info" data-aos="fade-up">
-              <div className='dates_date'>
-                <span>每週五六日</span>  
-                <div>*9/17(六) 特別休館*</div>
-              </div>
-
+            <div className='data-list'>
+              {month_data.map((item,index)=>{
+                return(
+                  <div key={index} onClick={()=>handleMonthClick(index)}>
+                    {item.title}
+                  </div>
+                )
+              })}
             </div>
           </div>
-          <div className="content">
-            <table className='guide_table'  width="100%" cellspacing="0" cellpadding="0" align="center">
-              <thead>
-                <tr>
-                  <th>時間 Time</th>
-                  <th>主題 Show</th>
-                  <th>類型 Title</th>
-                </tr>
-              </thead>
-              <tbody>
-                {
-                  data_9.map((item,index)=>{
-                    return(
-                      <tr>
-                        <td className='time'>{item.time}</td>
-                        <td>{item.show}</td>
-                        <td>{item.title}</td>
-                      </tr>
-                      )
-                  })
-                }
-
-                
-              </tbody>
-            </table>
-          </div>
+          <AnimatePresence>
+          {currentData.data && show && ( 
+            <motion.div 
+              className="content" 
+              key='1'
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              exit={{ opacity: 0 }}
+              transition={{type:'spring' , stiffness:100,delay:0.5}}
+            >
+              <div className="table-title">{currentData.title}</div>
+              <table className='guide_table'  width="100%" cellSpacing="0" cellPadding="0" align="center">
+                <thead>
+                  <tr>
+                    <th>時間 Time</th>
+                    <th>主題 Show</th>
+                    <th>類型 Title</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {
+                    currentData.data.map((item,index)=>{
+                      return(
+                        <tr key={index}>
+                          <td className='time'>{item.time}</td>
+                          <td>{item.show}</td>
+                          <td>{item.title}</td>
+                        </tr>
+                        )
+                    })
+                  }
+                </tbody>
+              </table>
+            </motion.div>
+          )}
+          </AnimatePresence>
+          
+          
         </div>
 
       </div>

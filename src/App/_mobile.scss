@@ -139,6 +139,15 @@
             width: 100%;
           }
         }
+        .data-list{
+          flex-direction: column;
+          width: 70%;
+        }
+        .table-title{
+          width: 70%;
+          font-size: 18px;
+          letter-spacing: 1px;
+        }
         }
 
       }
