@@ -1,21 +1,56 @@
-export const data_9 = {
-  title:'九月份場次表',
-  data:[
-    { time:"14:00 - 14:30",	show:"光電音造盤絲洞",	title:"沉浸式投影"},
-    { time:"14:30 - 15:00",	show:"杏仁 ミル",	title:"MR 互動體驗"},
-    { time:"15:00 – 15:30",	show:"杏仁 ミル",	title:"MR 互動體驗"},
-    { time:"16:00 – 16:30",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
-    { time:"17:00 – 17:30",	show:"河馬圓舞曲 + 帝江化生",	title:"MR 互動體驗"},
-    { time:"18:00 – 18:30",	show:"桃符",	title:"沉浸式投影"},
-    { time:"18:30 - 19:00",	show:"光電音造盤絲洞",	title:"沉浸式投影"}
-  ]
-}
+export const data_9 = [
+  {
+    title:'九月份場次表',
+    data:[
+      { time:"14:00 - 14:30",	show:"光電音造盤絲洞",	title:"沉浸式投影"},
+      { time:"14:30 - 15:00",	show:"杏仁 ミル",	title:"MR 互動體驗"},
+      { time:"15:00 – 15:30",	show:"杏仁 ミル",	title:"MR 互動體驗"},
+      { time:"16:00 – 16:30",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
+      { time:"17:00 – 17:30",	show:"河馬圓舞曲 + 帝江化生",	title:"MR 互動體驗"},
+      { time:"18:00 – 18:30",	show:"桃符",	title:"沉浸式投影"},
+      { time:"18:30 - 19:00",	show:"光電音造盤絲洞",	title:"沉浸式投影"}
+    ]
+  },
+  {
+    title:'九月份場次表',
+    data:[
+      { time:"14:00 - 14:30",	show:"光電音造盤絲洞",	title:"沉浸式投影"},
+      { time:"14:30 - 15:00",	show:"杏仁 ミル",	title:"MR 互動體驗"},
+      { time:"15:00 – 15:30",	show:"杏仁 ミル",	title:"MR 互動體驗"},
+      { time:"16:00 – 16:30",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
+      { time:"17:00 – 17:30",	show:"河馬圓舞曲 + 帝江化生",	title:"MR 互動體驗"},
+      { time:"18:00 – 18:30",	show:"桃符",	title:"沉浸式投影"},
+      { time:"18:30 - 19:00",	show:"光電音造盤絲洞",	title:"沉浸式投影"}
+    ]
+  },
+  {
+    title:'九月份場次表',
+    data:[
+      { time:"14:00 - 14:30",	show:"光電音造盤絲洞",	title:"沉浸式投影"},
+      { time:"14:30 - 15:00",	show:"杏仁 ミル",	title:"MR 互動體驗"},
+      { time:"15:00 – 15:30",	show:"杏仁 ミル",	title:"MR 互動體驗"},
+      { time:"16:00 – 16:30",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
+      { time:"17:00 – 17:30",	show:"河馬圓舞曲 + 帝江化生",	title:"MR 互動體驗"},
+      { time:"18:00 – 18:30",	show:"桃符",	title:"沉浸式投影"},
+      { time:"18:30 - 19:00",	show:"光電音造盤絲洞",	title:"沉浸式投影"}
+    ]
+  },
+  {
+    title:'九月份場次表',
+    data:[
+      { time:"14:00 - 14:30",	show:"光電音造盤絲洞",	title:"沉浸式投影"},
+      { time:"14:30 - 15:00",	show:"杏仁 ミル",	title:"MR 互動體驗"},
+      { time:"15:00 – 15:30",	show:"杏仁 ミル",	title:"MR 互動體驗"},
+      { time:"16:00 – 16:30",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
+      { time:"17:00 – 17:30",	show:"河馬圓舞曲 + 帝江化生",	title:"MR 互動體驗"},
+      { time:"18:00 – 18:30",	show:"桃符",	title:"沉浸式投影"},
+      { time:"18:30 - 19:00",	show:"光電音造盤絲洞",	title:"沉浸式投影"}
+    ]
+  }
+]
 
 export const month_data = [
-  {title:'九月份',index:0},
-  {title:'10月份(10/1-10/9)',index:1},
-  {title:'10月份(10/14-10/16)',index:2},
-  {title:'10月份(10/21-10/30)',index:3},
+  {title:'九月份',index:0}
 ]
 
 export const data = [
