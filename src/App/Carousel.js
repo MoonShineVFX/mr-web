@@ -2,7 +2,7 @@ import React, { useEffect, useState }  from 'react'
 import arrowRight  from '../images/right-arrow.svg'
 import HoverVideoPlayer from 'react-hover-video-player';
 import ReactPlayer from 'react-player'
-import { useTranslation } from 'react-i18next';
+import { useTranslation,Trans } from 'react-i18next';
 function Carousel ({slides}) {
     const [open, setOpen] = useState(false)
     const [curr, setCurr] = React.useState(0);
@@ -60,11 +60,11 @@ function Carousel ({slides}) {
                       <div className="hashtag">{currData.tag}</div>
                       {/* <h2>{s.subtitle}</h2> */}
                       <div className="borderLine"></div>
-                      <div className="description">{t(`${currData.description}`)}</div>
+                      <div className="description"><Trans i18nKey={currData.description}></Trans></div>
                       
                     </div>
                     <div className="btnGrp">
-                      <a href="https://www.kkday.com/zh-tw/product/126021?cid=12838" target="__blank" className="btn blue">{t('order_ticket')}</a>
+                      <a href={currData.ticket_link} target="__blank" className="btn blue">{t('order_ticket')}</a>
                     </div>
 
                   </div>
@@ -85,7 +85,8 @@ function Carousel ({slides}) {
                         {currData.creativeidea ?
                           <div>
                             <div className="title">{t('creativeidea_title')}</div>
-                            {t(`${currData.creativeidea}`)}
+                            {/* {t(`${currData.creativeidea}`)} */}
+                            <Trans i18nKey={currData.creativeidea}></Trans>
                           </div> : ''}
                         {currData.credit?
                           <div dangerouslySetInnerHTML={ {__html: currData.credit.replace(/(?:\r\n|\r|\n)/g, '<br />')} }>

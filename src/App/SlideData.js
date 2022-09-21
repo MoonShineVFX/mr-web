@@ -1,12 +1,31 @@
 const array = [
   {
+    title: 'slide6_title',
+    subtitle: '石虎樂章',
+    description:'slide6_desc_brife',
+    cover: 'project06/cover.png',
+    video:'hhttps://youtu.be/-7xmOzZE09E',
+    reserve_link :'https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=N25JU5Y8',
+    ticket_link:'https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=N25JU5Y8',
+    tag: 'MR互動沉浸式混合體驗',
+    creativeidea:'slide6_createive_idea',
+    credit:
+      '<div class="title">製作公司</div>'+
+      '夢想動畫 MoonShine Animation\n' +
+      '\n'+
+      '<div class="title">導演 Director</div>'+
+      '王舒音 Dolce Wang\n' 
+    ,
+    images:['project06/album/p01.jpg' ]
+  },
+  {
     title: 'slide4_title',
     subtitle: '河馬',
     description:'slide4_desc_brife',
     cover: 'project04/cover.png',
     video:'https://youtu.be/yPCco2VVzF4',
     reserve_link :'https://www.klook.com/zh-TW/',
-    ticket_link:'https://www.klook.com/zh-TW/',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide4_createive_idea',
     credit:
@@ -25,7 +44,7 @@ const array = [
     cover: "project02/cover.jpg",
     video:'https://youtu.be/nERe6qYmMJc',
     reserve_link :'https://www.klook.com/zh-TW/',
-    ticket_link:'https://www.klook.com/zh-TW/',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide2_createive_idea',
     credit:
@@ -44,7 +63,7 @@ const array = [
     cover: 'project03/cover.png',
     video:'https://youtu.be/DRgQxNZGLGE',
     reserve_link :'https://www.klook.com/zh-TW/',
-    ticket_link:'https://www.klook.com/zh-TW/',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide3_createive_idea',
     credit:
@@ -63,7 +82,7 @@ const array = [
     cover: 'project05/cover.png',
     video:'https://youtu.be/jqxXyWwlreE',
     reserve_link :'https://www.klook.com/zh-TW/',
-    ticket_link:'https://www.klook.com/zh-TW/',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     tag: '沉浸式投影',
     creativeidea:'slide5_createive_idea',
     credit:
@@ -82,7 +101,7 @@ const array = [
     cover: 'project01/cover.png',
     video:'https://youtu.be/x0rxfRCBZPU',
     reserve_link :'https://www.klook.com/zh-TW/',
-    ticket_link:'https://www.klook.com/zh-TW/',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     tag: '沉浸式投影',
     creativeidea:'slide1_createive_idea',
     credit:
