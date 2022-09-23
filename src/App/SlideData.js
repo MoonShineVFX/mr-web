@@ -4,7 +4,7 @@ const array = [
     subtitle: '石虎樂章',
     description:'slide6_desc_brife',
     cover: 'project06/cover.png',
-    video:'hhttps://youtu.be/-7xmOzZE09E',
+    video:'https://youtu.be/AdtqmzcZyVA',
     reserve_link :'https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=N25JU5Y8',
     ticket_link:'https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=N25JU5Y8',
     tag: 'MR互動沉浸式混合體驗',
