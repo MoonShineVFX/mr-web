@@ -1,5 +1,22 @@
 const array = [
   {
+    title: 'slide7_title',
+    subtitle: '《流麻溝十五號》沉浸版',
+    description:'slide7_desc_brife',
+    cover: 'project06/cover.png',
+    video:'https://youtu.be/By0gv9w9NfI',
+    reserve_link :'no',
+    ticket_link:'no',
+    tag: '沉浸式投影',
+    creativeidea:'slide7_createive_idea',
+    credit:
+      '<div class="title">製作公司</div>'+
+      '夢想動畫 MoonShine Animation\n' +
+      '湠臺灣電影 thuànnTaiwan\n' 
+    ,
+    images:['project07/album/p01.jpeg','project07/album/p02.jpeg','project07/album/p03.jpeg' ]
+  },
+  {
     title: 'slide6_title',
     subtitle: '石虎樂章',
     description:'slide6_desc_brife',

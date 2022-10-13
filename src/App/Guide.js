@@ -36,6 +36,9 @@ function Guide() {
               })}
             </div>
           </div>
+          
+          <div className="table-title">{currentData.title}</div>
+          <div className="table-subtitle">10/14(五) 13:00-15:00 不對外開放</div>
           <AnimatePresence>
           {currentData.data && show && ( 
             <motion.div 
@@ -46,7 +49,7 @@ function Guide() {
               exit={{ opacity: 0 }}
               transition={{type:'spring' , stiffness:100,delay:0.5}}
             >
-              <div className="table-title">{currentData.title}</div>
+              
               <table className='guide_table'  width="100%" cellSpacing="0" cellPadding="0" align="center">
                 <thead>
                   <tr>

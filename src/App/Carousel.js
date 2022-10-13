@@ -64,7 +64,11 @@ function Carousel ({slides}) {
                       
                     </div>
                     <div className="btnGrp">
-                      <a href={currData.ticket_link} target="__blank" className="btn blue">{t('order_ticket')}</a>
+                      {currData.ticket_link  == 'no' ?
+                        <div className="btn blue">{t('free_ticket')}</div> 
+                        :  
+                        <a href={currData.ticket_link} target="__blank" className="btn blue">{t('order_ticket')}</a>}
+                      
                     </div>
 
                   </div>

@@ -132,6 +132,12 @@
     }
     .guide{
       .items{
+        .table-title{
+          width: 70%;
+          font-size: 20px;
+          letter-spacing: 1px;
+          text-align: center;
+        }
         .content{
         .dates_info{
           flex-direction: column;
@@ -143,11 +149,7 @@
           flex-direction: column;
           width: 70%;
         }
-        .table-title{
-          width: 70%;
-          font-size: 18px;
-          letter-spacing: 1px;
-        }
+        
         }
 
       }

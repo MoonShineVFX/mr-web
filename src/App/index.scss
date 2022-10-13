@@ -220,6 +220,7 @@ body{
           justify-content: center;
           align-items: center;
           width: 100%;
+          color: #fff;
           cursor: pointer;
           transition: 0.3s;
           flex-direction: column;
@@ -419,6 +420,15 @@ body{
     align-items: center;
     margin-top: 50px;
     width: 100%;
+    .table-title{
+      font-size: 32px;
+      color:#e1e3e9;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      margin-top: 35px;
+    }
+    .table-subtitle{
+    }
     .report-content , .content{
       margin-top: 20px;
       display: flex;
@@ -438,12 +448,7 @@ body{
         margin-top: 50px;
         margin-bottom: 50px;
       }
-      .table-title{
-        font-size: 32px;
-        color:#e1e3e9;
-        margin-bottom: 15px;
-        letter-spacing: 2px;
-      }
+      
       .data-list{
         display: flex;
         justify-content: space-between;
