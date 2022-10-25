@@ -38,7 +38,8 @@ function Guide() {
           </div>
           
           <div className="table-title">{currentData.title}</div>
-          <div className="table-subtitle">10/14(五) 13:00-15:00 不對外開放</div>
+          {currentData.subtitle && <div className="table-subtitle">{currentData.subtitle}</div>}
+          
           <AnimatePresence>
           {currentData.data && show && ( 
             <motion.div 
