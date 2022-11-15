@@ -50,28 +50,11 @@ export const data_9 = [
 ]
 
 export const month_data = [
-  {title:'十月份(10/21-10/30)',index:3},
   {title:'十一月份',index:4}
 ]
 
 export const data = [
-  {
-    id:4,
-    title:'十月份場次表(10/21-10/30)',
-    data:[
-      { time:"13:00 - 13:30",	show:"桃符",	title:"沉浸式投影"},
-      { time:"13:30 - 14:00",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
-      { time:"14:00 – 14:30",	show:"桃符",	title:"沉浸式投影"},
-      { time:"14:30 – 15:00",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
-      { time:"15:00 – 15:30",	show:"《流麻溝十五號》沉浸版",	title:"沉浸式投影"},
-      { time:"15:30 – 16:00",	show:"桃符",	title:"沉浸式投影"},
-      { time:"16:00 – 16:30",	show:"鶴之舞 + 河馬圓舞曲",	title:"MR 互動體驗"},
-      { time:"16:30 – 17:00",	show:"《流麻溝十五號》沉浸版",	title:"沉浸式投影"},
-      { time:"17:00 - 17:30",	show:"聲林協奏曲-石虎樂章",	title:"MR 互動體驗"},
-      { time:"18:00 - 18:30",	show:"聲林協奏曲-石虎樂章",	title:"MR 互動體驗"},
-      { time:"19:00 - 19:30",	show:"聲林協奏曲-石虎樂章",	title:"MR 互動體驗"}
-    ]
-  },
+
   {
     id:5,
     title:'十一月份場次表',
