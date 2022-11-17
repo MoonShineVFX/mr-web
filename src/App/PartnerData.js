@@ -15,5 +15,9 @@ export default [
     {
         images: '/images/Optomalogo.png',
         href: 'https://www.optoma.com/tw/'
+    },
+    {
+        images: '/images/FREES.png',
+        href: 'http://www.frees.com.tw/'
     }
 ]
