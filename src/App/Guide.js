@@ -66,7 +66,9 @@ function Guide() {
                         <tr key={index}>
                           <td className='time'>{item.time}</td>
                           <td>{item.show}</td>
-                          <td>{item.title}</td>
+                          <td>{item.title} 
+                              {item.price && <div className='text_free'>{item.price}</div>}
+                          </td>
                         </tr>
                         )
                     })
