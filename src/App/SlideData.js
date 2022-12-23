@@ -1,5 +1,33 @@
 const array = [
   {
+    title: 'slide8_title',
+    subtitle: '《海與幻》沉浸式投影',
+    description:'slide8_desc_brife',
+    cover: 'project08/cover.png',
+    video:'https://www.youtube.com/watch?v=8M6nibtLxz4',
+    reserve_link :'no',
+    ticket_link:'no',
+    tag: '沉浸式投影',
+    creativeidea:'slide8_createive_idea',
+    credit:
+      '<div class="title">藝術家</div>'+
+      'Kian Khiaban \n' +
+      '\n'+
+      '<div class="title">策展人</div>'+
+      '江宜達\n' + 
+      '\n'+
+      '<div class="title">監製</div>'+
+      '葉孟翰\n' + 
+      '\n'+
+      '<div class="title">製作</div>'+
+      'Future Nature\n' +
+      '\n'+ 
+      '<div class="title">藝術家</div>'+
+      '葉廷皓\n'
+    ,
+    images:['project08/album/p01.jpg','project08/album/p02.jpg' ]
+  },
+  {
     title: 'slide7_title',
     subtitle: '《流麻溝十五號》沉浸版',
     description:'slide7_desc_brife',
