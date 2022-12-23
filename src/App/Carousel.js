@@ -19,10 +19,22 @@ function Carousel ({slides}) {
       setCurrData(slides[curr <= 0 ?  length-1 : curr - 1])
 
     }
-    
+    const renderSwitch = (param)  => {
+      switch(param) {
+        case 'free':
+          return <div className="btn blue">{t('free_ticket')}</div> ;
+        case 'buy':
+          return <a href={currData.ticket_link} target="__blank" className="btn blue">{t('order_ticket')}</a> ;
+        case 'free_reserve':
+        return <a href={currData.reserve_link} target="__blank" className="btn blue">{t('reserve_ticket')}</a> ;
+        default:
+          return 'foo';
+      }
+    }
     useEffect(()=>{
       setCurrData(slides[0])
     },[])
+    
 
     console.log(currData)
     return (
@@ -64,10 +76,7 @@ function Carousel ({slides}) {
                       
                     </div>
                     <div className="btnGrp">
-                      {currData.ticket_link  == 'no' ?
-                        <div className="btn blue">{t('free_ticket')}</div> 
-                        :  
-                        <a href={currData.ticket_link} target="__blank" className="btn blue">{t('order_ticket')}</a>}
+                      {renderSwitch(currData.ticket_type)}
                       
                     </div>
 

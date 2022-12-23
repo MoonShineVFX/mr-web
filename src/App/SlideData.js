@@ -6,7 +6,8 @@ const array = [
     cover: 'project08/cover.png',
     video:'https://www.youtube.com/watch?v=8M6nibtLxz4',
     reserve_link :'no',
-    ticket_link:'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
     tag: '沉浸式投影',
     creativeidea:'slide8_createive_idea',
     credit:
@@ -34,7 +35,8 @@ const array = [
     cover: 'project06/cover.png',
     video:'https://youtu.be/By0gv9w9NfI',
     reserve_link :'no',
-    ticket_link:'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/134815',
+    ticket_type:'free_reserve',
     tag: '沉浸式投影',
     creativeidea:'slide7_createive_idea',
     credit:
@@ -50,8 +52,9 @@ const array = [
     description:'slide6_desc_brife',
     cover: 'project06/cover.png',
     video:'https://youtu.be/AdtqmzcZyVA',
-    reserve_link :'https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=N25JU5Y8',
-    ticket_link:'https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=N25JU5Y8',
+    reserve_link :'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
     tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide6_createive_idea',
     credit:
@@ -69,8 +72,9 @@ const array = [
     description:'slide4_desc_brife',
     cover: 'project04/cover.png',
     video:'https://youtu.be/yPCco2VVzF4',
-    reserve_link :'https://www.klook.com/zh-TW/',
+    reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
     tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide4_createive_idea',
     credit:
@@ -90,6 +94,7 @@ const array = [
     video:'https://youtu.be/nERe6qYmMJc',
     reserve_link :'https://www.klook.com/zh-TW/',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
     tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide2_createive_idea',
     credit:
@@ -107,8 +112,9 @@ const array = [
     description:'slide3_desc_brife',
     cover: 'project03/cover.png',
     video:'https://youtu.be/DRgQxNZGLGE',
-    reserve_link :'https://www.klook.com/zh-TW/',
+    reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
     tag: 'MR互動沉浸式混合體驗',
     creativeidea:'slide3_createive_idea',
     credit:
@@ -126,8 +132,9 @@ const array = [
     description:'slide5_desc_brife',
     cover: 'project05/cover.png',
     video:'https://youtu.be/jqxXyWwlreE',
-    reserve_link :'https://www.klook.com/zh-TW/',
+    reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
     tag: '沉浸式投影',
     creativeidea:'slide5_createive_idea',
     credit:
@@ -145,8 +152,9 @@ const array = [
     description:'slide1_desc_brife',
     cover: 'project01/cover.png',
     video:'https://youtu.be/x0rxfRCBZPU',
-    reserve_link :'https://www.klook.com/zh-TW/',
+    reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
     tag: '沉浸式投影',
     creativeidea:'slide1_createive_idea',
     credit:
