@@ -34,7 +34,7 @@ const array = [
     description:'slide7_desc_brife',
     cover: 'project06/cover.png',
     video:'https://youtu.be/By0gv9w9NfI',
-    reserve_link :'no',
+    reserve_link :'https://www.kkday.com/zh-tw/product/134815',
     ticket_link:'https://www.kkday.com/zh-tw/product/134815',
     ticket_type:'free_reserve',
     tag: '沉浸式投影',
