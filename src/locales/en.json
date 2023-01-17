@@ -26,6 +26,12 @@
   "slide6_title":"Formosan Harmony",
   "slide6_desc_brife":"Formosan Harmony is a fantasy-driven immersive show. Combining 360 projection, Lidar sensors, HoloLens2 headsets, and Dolby surround sound, our production transforms multiplayer guests into the heroes of the show. <br/> Journey with us into the lush forests of Taiwan; guided by your personal forest sprite, you will learn to unleash magic, befriend the exotic Leopard Cats, while battling an onrush from an ultra-charged cyberpunk city. Will you help reunite the Leopard family and restore harmony back to the forest?",
   "slide6_createive_idea":"We believe that when everything falls apart, it is the role of the artist to bring beauty back into a broken world. Despite the worldwide challenges we’ve faced these years – not to mention the plight on our earth – We wanted to create an MR experience that explicitly uses technology as the means to bring guests into an organic and imaginative world within an environmental theme. With MR, we can use gesture recognition to turn the guests into heroes, so that their decisions determine the show’s outcome. <br/>  Our hope is that our guests would not only be immersed in an unforgettable adventure, but also experience viscerally that through our actions, by working together, we bring harmony back to the environment.",
+  "slide7_title":"《流麻溝十五號》沉浸版",
+  "slide7_desc_brife":"The immersive version of 'Untold Herstory' was coproduced by Moonshine Animation and thuànn TAIWAN Film Corporation, which describes what happened on Green Island during the White Terror period, the same story framework as the original movie. By utilizing the features of 360 degree projection and immersive space, Moondream Reality is going to give the guests an entirely new interpretation of this work.",
+  "slide7_createive_idea":"Liumagou is a place name in Green Island and is the only source of fresh water on the island.<br/> <br/> Liumagou No. 15 was used as the registered residence of political and ideological prisoners detained here in 1950s.<br/> <br/>  The movie 'Untold Herstory' describes the female thought prisoners who were escorted to Green Island for 'ideological re-education' during the White Terror. <br/> <br/> In the movie, they were forced to be dim and imprisoned in their golden years, however bravely defied the oppression and fought for freedom.<br/> <br/> As to the immersive version of 'Untold Herstory', the images of historical scenes are redesigned, and besides, the dialogues, voiceovers and soundtracks are partly captured and applied to echo the film. <br/> <br/> With the photography collection 'Fire Island: Liumagou No. 15' by photographer Mr. Xie Santai, the precious pictures of Green Island are presented, interlacing at different times, and interweaving with the story scenes. Has 'the past' passed away? Gazing at the indelible past of Green Island together, the audience not only witness the story, but also feel like returning to Green Island to experience the story has not been told.",
+  "slide8_title":"《海與幻》沉浸式投影",
+  "slide8_desc_brife":"Ocean and Fatasy is the first multi-national collaboration work with the international team, Future Nature, Taiwanese sound artist, Ting-Hao Yeh, and Moondream Reality. to create an imaginative work about future art.",
+  "slide8_createive_idea":"Ocean and Fatasy is divided into two parts: Nature Reality and Imagery Resonance<br/> <br/> Nature Reality is produced by Kian Khiaban and Future x Nature. The concept is to create healing nature-inspired environments, and go in the opposite direction of noisy, anxious, competitive to quiet, peaceful, and relaxing.<br/> <br/>Imagery Resonance is produced by Ting-Hao Yeh, who constructs an immersive audio-visual experience where sound, image, and audience are closely related to each other. In the audio-visual illusion of digital computing, we can feel the rhythm of the image driven by sound.",
   "about_title":"The First MR <br/> Immersive Theater of the World",
   "about_desc":"Combining mixed reality and immersive projection, pushing the boundaries of art through technology, and creating a new form of art space. It allows participants to be fully immersed into the art and become part of it. <br/>  Founded by MoonShine Animation, the year 2021 is where Moondream Reality takes off. <br/> Something you've never sensed before, scenes you thought could only be in your dreams; here, they become reality.",
   "double1_title":"Mixed <br/> Reality",
@@ -57,5 +63,18 @@
   "mr_map_name_svg":"MR_map_web_EN.svg",
   "guide_title":"SCHEDULE",
   "sep_title":"September SCHEDULE",
-  "guide_date_title":"OPENING TIME"
+  "guide_date_title":"OPENING TIME",
+  "jan_title":"January",
+  "feb_title":"February",
+  "feb_subtitle":"Extra Opening Hours 02.24-02.27",
+  "guide_freeticket":"(FREE)",
+  "guide_category_1":"Immersive Experience",
+  "guide_category_2":"MR Interactive",
+  "guide_category_3":"MR Interactive+Immersive Experience",
+  "show_name_1":"《Untold Story》immersive version",
+  "show_name_2":"《Formosan Harmony》+《Nature Reality》",
+  "show_name_3":"《Underwater Hippo Circus》+《Flamingo》+《Nature Reality》",
+  "show_name_4":"《Nature Reality》",
+  "show_name_5":"《Rebirth》+《Flamingo 》+《Nature Reality》"
+
 }

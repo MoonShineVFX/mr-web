@@ -30,15 +30,15 @@ function Guide() {
               {month_data.map((item,index)=>{
                 return(
                   <div key={index} onClick={()=>handleMonthClick(index)}>
-                    {item.title}
+                    {t(`${item.title}`)}
                   </div>
                 )
               })}
             </div>
           </div>
           
-          <div className="table-title">{currentData.title}</div>
-          {currentData.subtitle && <div className="table-subtitle">{currentData.subtitle}</div>}
+          <div className="table-title">{t(`${currentData.title}`)}</div>
+          {currentData.subtitle && <div className="table-subtitle">{t(`${currentData.subtitle}`)}</div>}
           
           <AnimatePresence>
           {currentData.data && show && ( 
@@ -65,9 +65,9 @@ function Guide() {
                       return(
                         <tr key={index}>
                           <td className='time'>{item.time}</td>
-                          <td>{item.show}</td>
-                          <td>{item.title} 
-                              {item.price && <div className='text_free'>{item.price}</div>}
+                          <td>{t(`${item.show}`)}</td>
+                          <td>{t(`${item.title}`)}
+                              {item.price && <div className='text_free'>{t(`${item.price}`)}</div>}
                           </td>
                         </tr>
                         )

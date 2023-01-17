@@ -50,27 +50,42 @@ export const data_9 = [
 ]
 
 export const month_data = [
-  {title:'一月份場次表',index:4},
-  {title:'十二月份場次表',index:4},
-  {title:'12/10(六)、12/11(日) 場次表',index:4}
+  {title:'feb_title',index:4},
+  {title:'jan_title',index:4},
   
 ]
 
 export const data = [
   {
     id:5,
-    title:'一月份場次表',
+    title:'feb_title',
+    subtitle:'feb_subtitle',
+    data:[
+      { time:"13:30",	show:"show_name_1",	title:"guide_category_1",price:"guide_freeticket"},
+      { time:"14:00",	show:"show_name_2",	title:"guide_category_3"},
+      { time:"15:00",	show:"show_name_3",	title:"guide_category_3"},
+      { time:"15:00",	show:"show_name_4",	title:"guide_category_1"},
+      { time:"16:30",	show:"show_name_1",	title:"guide_category_1",price:"guide_freeticket"},
+      { time:"17:00",	show:"show_name_5",	title:"guide_category_3"},
+      { time:"18:00",	show:"show_name_2",	title:"guide_category_3"},
+      { time:"18:00",	show:"show_name_4",	title:"guide_category_1"},
+      { time:"19:30",	show:"show_name_1",	title:"guide_category_1",price:"guide_freeticket"},
+    ]
+  },
+  {
+    id:5,
+    title:'jan_title',
     subtitle:'1/20 -1/22(日) 過年期間為休館時間',
     data:[
-      { time:"13:30",	show:"《流麻溝十五號》沉浸版",	title:"沉浸式投影",price:"免費入場"},
-      { time:"14:00",	show:"《聲林協奏曲 石虎樂章》+《海與幻》",	title:"MR 互動體驗+沉浸式投影"},
-      { time:"15:00",	show:"《河馬圓舞曲 》+《鶴之舞 》+《海與幻》",	title:"MR 互動體驗+沉浸式投影"},
-      { time:"15:00",	show:"《海與幻》未來藝術聯展",	title:"沉浸式投影"},
-      { time:"16:30",	show:"《流麻溝十五號》沉浸版",	title:"沉浸式投影",price:"免費入場"},
-      { time:"17:00",	show:"《帝江化生 》+《鶴之舞 》+《海與幻》",	title:"MR 互動體驗+沉浸式投影"},
-      { time:"18:00",	show:"《聲林協奏曲 石虎樂章》+《海與幻》",	title:"MR 互動體驗+沉浸式投影"},
-      { time:"18:00",	show:"《海與幻》未來藝術聯展",	title:"沉浸式投影"},
-      { time:"19:30",	show:"《流麻溝十五號》沉浸版",	title:"沉浸式投影",price:"免費入場"},
+      { time:"13:30",	show:"show_name_1",	title:"guide_category_1",price:"guide_freeticket"},
+      { time:"14:00",	show:"show_name_2",	title:"guide_category_3"},
+      { time:"15:00",	show:"show_name_3",	title:"guide_category_3"},
+      { time:"15:00",	show:"show_name_4",	title:"guide_category_1"},
+      { time:"16:30",	show:"show_name_1",	title:"guide_category_1",price:"guide_freeticket"},
+      { time:"17:00",	show:"show_name_5",	title:"guide_category_3"},
+      { time:"18:00",	show:"show_name_2",	title:"guide_category_3"},
+      { time:"18:00",	show:"show_name_4",	title:"guide_category_1"},
+      { time:"19:30",	show:"show_name_1",	title:"guide_category_1",price:"guide_freeticket"},
     ]
   },
   {
