@@ -62,10 +62,19 @@
   "banner":"<0>Something You've Never Sensed Before,</0> <1>Scenes You Thought Could Only Be in Your Dreams ; Here, They Become Reality.</1>",
   "mr_map_name_svg":"MR_map_web_EN.svg",
   "guide_title":"SCHEDULE",
-  "sep_title":"September SCHEDULE",
   "guide_date_title":"OPENING TIME",
   "jan_title":"January",
   "feb_title":"February",
+  "mar_title":"March",
+  "apr_title":"April",
+  "may_title":"May",
+  "jun_title":"June",
+  "jul_title":"July",
+  "aug_title":"August",
+  "sep_title":"September",
+  "oct_title":"October",
+  "nov_title":"November",
+  "dec_title":"December",
   "feb_subtitle":"Extra Opening Hours 02.24-02.27",
   "guide_freeticket":"(FREE)",
   "guide_category_1":"Immersive Experience",
@@ -75,6 +84,11 @@
   "show_name_2":"《Formosan Harmony》+《Nature Reality》",
   "show_name_3":"《Underwater Hippo Circus》+《Flamingo》+《Nature Reality》",
   "show_name_4":"《Nature Reality》",
-  "show_name_5":"《Rebirth》+《Flamingo 》+《Nature Reality》"
+  "show_name_5":"《Rebirth》+《Flamingo 》+《Nature Reality》",
+  "mar_show_name_1":"《Nature Reality》",
+  "mar_show_name_2":"《Flamingo 》 + 《Rebirth》 ",
+  "mar_show_name_3":"《Formosan Harmony》",
+  "mar_show_name_4":"《Flamingo 》 + 《Underwater Hippo Circus》",
+  "mar_show_name_5":"《Rebirth》 + 《Underwater Hippo Circus》"
 
 }
