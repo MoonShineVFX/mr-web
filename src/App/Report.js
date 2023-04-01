@@ -50,7 +50,7 @@ function Report() {
               <div className="report-content">
                 <div className="title">{t('visitInfo_time_title')}</div>
                 <div className="item item-time" data-aos="fade-up">
-                  <div className="item-time-number">30 <span>{t('minute')}</span></div>
+                  <div className="item-time-number">40-60 <span>{t('minute')}</span></div>
                   <div className="item-time-desc">{t('visitInfo_time_desc')}</div>
                 </div>
               </div>
@@ -59,18 +59,18 @@ function Report() {
                 <div className="item item-price">
                   <div className="item-price-content" data-aos="fade-up">
                     <div className="item-price-content-border">
-                      <div>{t('mrGlass')}</div>
+                      <div>{t('guide_category_2')}</div>
                       <div>+</div>
-                      <div>{t('immersive_projection')}</div>
+                      <div>{t('guide_category_1')}</div>
                     </div>
-                    <div className="item-price-content-number">NT$ <span>400</span></div>
+                    <div className="item-price-content-number">NT$ <span>399</span> / 時間 60 分鐘</div>
 
                   </div>
                   <div className="item-price-content" data-aos="fade-up" data-aos-delay="500">
                     <div className="item-price-content-border">
-                      <div>{t('immersive_projection')}</div>
+                      <div>{t('guide_category_2')}</div>
                     </div>
-                    <div className="item-price-content-number">NT$ <span>200</span></div>
+                    <div className="item-price-content-number">NT$ <span>350</span> / 時間 40分鐘</div>
                   </div>
                 </div>
               </div>

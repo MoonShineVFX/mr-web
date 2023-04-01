@@ -46,21 +46,29 @@ function Carousel ({slides}) {
                   className="carousel-item"
                   key={currData.title}
                 >
+                  
                   <div className="cover">
-                      <ReactPlayer
-                        
-                        className='react-player'
-                        url={currData.video}
-                        width='100%'
-                        height='100%'
-                        controls
-                        loop
-                        config={{
-                          youtube: {
-                            playerVars: { rel: 0,ecver: 2, showinfo:0 }
-                          }
-                        }}
-                      />
+                  {currData.video?.length ===0  ? 
+                    <div className='for-coverimg'>
+                      <img src={process.env.PUBLIC_URL+'/images/'+currData.cover} alt=""/>
+                    </div>
+                  : 
+                    <ReactPlayer
+                      className='react-player'
+                      url={currData.video}
+                      width='100%'
+                      height='100%'
+                      controls
+                      loop
+                      config={{
+                        youtube: {
+                          playerVars: { rel: 0,ecver: 2, showinfo:0 }
+                        }
+                      }}
+                    />
+      
+                  }
+
                     {/* <div className="detail" onClick={ () => setOpen(!open)}>{t('detail')}</div> */}
 
                   </div>

@@ -67,6 +67,8 @@
   "feb_title":"February",
   "mar_title":"March",
   "apr_title":"April",
+  "apr_title1":"April 4/1-4/14 ",
+  "apr_title2":"April 4/15-4/30",
   "may_title":"May",
   "jun_title":"June",
   "jul_title":"July",
@@ -89,6 +91,7 @@
   "mar_show_name_2":"《Flamingo 》 + 《Rebirth》 ",
   "mar_show_name_3":"《Formosan Harmony》",
   "mar_show_name_4":"《Flamingo 》 + 《Underwater Hippo Circus》",
-  "mar_show_name_5":"《Rebirth》 + 《Underwater Hippo Circus》"
-
+  "mar_show_name_5":"《Rebirth》 + 《Underwater Hippo Circus》",
+  "show_name_6":"Plant Lover",
+  "show_name_7":"Floral Fantasia"
 }

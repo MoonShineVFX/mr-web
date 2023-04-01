@@ -1,5 +1,26 @@
 const array = [
   {
+    title: 'slide9_title',
+    subtitle: '植物情人',
+    description:'slide9_desc_brife',
+    cover: 'project09/cover.jpg',
+    video:'',
+    reserve_link :'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
+    tag: '沉浸式投影',
+    creativeidea:'slide9_createive_idea',
+    credit:
+      '<div class="title">製作公司</div>'+
+      '夢想動畫 MoonShine Animation \n' +
+      '大塊文化 Locus Publishing \n' +
+      '\n'+
+      '<div class="title">繪本作者</div>'+
+      ' 黃湘玲\n'
+    ,
+    images:['project09/album/p01.jpg','project09/album/p02.jpg' ]
+  },
+  {
     title: 'slide8_title',
     subtitle: '《海與幻》沉浸式投影',
     description:'slide8_desc_brife',

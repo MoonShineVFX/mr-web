@@ -50,6 +50,8 @@ export const data_9 = [
 ]
 
 export const month_data = [
+  {title:'apr_title1',index:4},
+  {title:'apr_title2',index:4},
   {title:'mar_title',index:4},
   {title:'feb_title',index:4},
   
@@ -58,9 +60,35 @@ export const month_data = [
 export const data = [
   {
     id:5,
+    title:'apr_title1',
+    subtitle:'清明連假開館日為 3/31（五）~ 4/4（二）',
+    data:[
+      { time:"14:00",	show:"mar_show_name_2",	title:"guide_category_2"},
+      { time:"15:00",	show:"mar_show_name_3",	title:"guide_category_2"},
+      { time:"16:00",	show:"mar_show_name_4",	title:"guide_category_2"},
+      { time:"17:00",	show:"mar_show_name_3",	title:"guide_category_2"},
+      { time:"18:00",	show:"mar_show_name_5",	title:"guide_category_2"},
+      { time:"19:00",	show:"mar_show_name_2",	title:"guide_category_2"},
+    ]
+  },
+  {
+    id:5,
+    title:'apr_title2',
+    subtitle:'清明連假開館日為 3/31（五）~ 4/4（二）',
+    data:[
+      { time:"14:00",	show:"mar_show_name_2",show2:"show_name_6",	title:"guide_category_2",title2:"guide_category_1"},
+      { time:"15:00",	show:"mar_show_name_3",	title:"guide_category_2"},
+      { time:"16:00",	show:"mar_show_name_4",show2:"show_name_6",	title:"guide_category_2",title2:"guide_category_1"},
+      { time:"17:00",	show:"mar_show_name_3",	title:"guide_category_2"},
+      { time:"18:00",	show:"mar_show_name_5",	title:"guide_category_2"},
+      { time:"19:00",	show:"mar_show_name_2",	title:"guide_category_2"},
+    ]
+  },
+  {
+    id:5,
     title:'mar_title',
     data:[
-      { time:"13:30",	show:"mar_show_name_1",	title:"guide_category_1"},
+      { time:"13:30",	show:"mar_show_name_2",	title:"guide_category_1"},
       { time:"14:00",	show:"mar_show_name_2",	title:"guide_category_2"},
       { time:"15:00",	show:"mar_show_name_3",	title:"guide_category_2"},
       { time:"16:00",	show:"mar_show_name_4",	title:"guide_category_2"},

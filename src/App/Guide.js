@@ -65,8 +65,17 @@ function Guide() {
                       return(
                         <tr key={index}>
                           <td className='time'>{item.time}</td>
-                          <td>{t(`${item.show}`)}</td>
-                          <td>{t(`${item.title}`)}
+                          <td>
+                            {t(`${item.show}`)} 
+                            { item.show2 &&
+                              <div>{t(`${item.show2}`)}</div>
+                            }
+                            
+                          </td>
+
+                          <td>{t(`${item.title}`)} { item.title2 &&
+                              <div>{t(`${item.title2}`)}</div>
+                            }
                               {item.price && <div className='text_free'>{t(`${item.price}`)}</div>}
                           </td>
                         </tr>

@@ -30,7 +30,7 @@ function App() {
     <Guide />
     <About/>
     <Double/>
-    <Precaution/>
+    {/* <Precaution/> */}
     <Report/>
     <Partner title={t('directed_title')} logos = {suppData} />
     <Partner title={t('partner_title')} logos = {partnerData}/>
