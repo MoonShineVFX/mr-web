@@ -80,7 +80,7 @@ export const data = [
       { time:"15:00",	show:"mar_show_name_3",	title:"guide_category_2"},
       { time:"16:00",	show:"mar_show_name_4",show2:"show_name_6",	title:"guide_category_2",title2:"guide_category_1"},
       { time:"17:00",	show:"mar_show_name_3",	title:"guide_category_2"},
-      { time:"18:00",	show:"mar_show_name_5",	title:"guide_category_2"},
+      { time:"18:00",	show:"mar_show_name_5",show2:"show_name_6",	title:"guide_category_2",title2:"guide_category_1"},
       { time:"19:00",	show:"mar_show_name_2",	title:"guide_category_2"},
     ]
   },
