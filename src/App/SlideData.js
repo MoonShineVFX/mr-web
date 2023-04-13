@@ -1,14 +1,37 @@
 const array = [
   {
-    title: 'slide9_title',
+    title: 'slide10_title',
     subtitle: '植物情人',
-    description:'slide9_desc_brife',
-    cover: 'project09/cover.jpg',
+    description:'slide10_desc_brife',
+    cover: 'project10/cover.jpeg',
     video:'',
     reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     ticket_type:'buy',
-    tag: '沉浸式投影',
+    tag: 'MR互動體驗 + 沉浸式劇場',
+    creativeidea:'slide10_createive_idea',
+    credit:
+      '<div class="title">製作公司</div>'+
+      '夢想動畫 MoonShine Animation \n' +
+      '\n'+
+      '<div class="title">編舞 Dance Design</div>'+
+      ' 小事製作 Les Petites Choses Production\n'+
+      '\n'+
+      '<div class="title">聲音設計 Sound Design</div>'+
+      ' 莉莉周她說 Lily Chou-Chou Lied\n'
+    ,
+    images:['project10/album/p01.jpg','project10/album/p02.jpg' ]
+  },
+  {
+    title: 'slide9_title',
+    subtitle: '植物情人',
+    description:'slide9_desc_brife',
+    cover: 'project09/cover.jpg',
+    video:'https://www.youtube.com/watch?v=rapzMIWC8kc',
+    reserve_link :'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
+    tag: '沉浸式劇場',
     creativeidea:'slide9_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
@@ -29,7 +52,7 @@ const array = [
     reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     ticket_type:'buy',
-    tag: '沉浸式投影',
+    tag: '沉浸式劇場',
     creativeidea:'slide8_createive_idea',
     credit:
       '<div class="title">藝術家</div>'+
@@ -58,7 +81,7 @@ const array = [
     reserve_link :'https://www.kkday.com/zh-tw/product/134815',
     ticket_link:'https://www.kkday.com/zh-tw/product/134815',
     ticket_type:'free_reserve',
-    tag: '沉浸式投影',
+    tag: '沉浸式劇場',
     creativeidea:'slide7_createive_idea',
     credit:
       '<div class="title">製作公司</div>'+
