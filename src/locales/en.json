@@ -75,9 +75,10 @@
   "apr_title":"April",
   "apr_title1":"April 4/1-4/14 ",
   "apr_title2":"April 4/15-4/30",
-  "may_title":"May",
+  "may_title":"MAY SCHEDULE",
   "may_subtitle":"VISION GET WILD OPENING TIME MAY. 25（THU.）~MAY. 28（SUN）",
-  "jun_title":"June",
+  "jun_title":"JUNE SCHEDULE",
+  "jun_subtitle":"SPECIAL EVENT   DAY OFF JUNE. 10（SAT）-11（SUN）",
   "jul_title":"July",
   "aug_title":"August",
   "sep_title":"September",
@@ -98,7 +99,8 @@
   "mar_show_name_2":"《Flamingo 》 + 《Rebirth》 ",
   "mar_show_name_3":"Formosan Harmony",
   "mar_show_name_4":"Flamingo + Underwater Hippo Circus",
-  "mar_show_name_5":"《Rebirth》 + 《Underwater Hippo Circus》",
+  "mar_show_name_5":"Underwater Hippo Circus + Rebirth",
   "show_name_6":"《Plant Lover》",
-  "show_name_7":"Floral Fantasia"
+  "show_name_7":"Floral Fantasia",
+  "show_name_8":"Floral Fantasia + Flamingo"
 }
