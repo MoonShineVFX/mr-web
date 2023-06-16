@@ -1,7 +1,30 @@
 const array = [
   {
+    title: 'slide11_title',
+    subtitle: '懶懶與可可',
+    description:'slide11_desc_brife',
+    cover: 'project11/cover.jpeg',
+    video:'https://www.youtube.com/watch?v=_IQsLi8qHWI',
+    reserve_link :'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
+    ticket_link2:'https://play.niceday.tw/product/7498',
+    ticket_type2:'buyfirst',
+    tag: '兒童劇場(雙語互動劇)',
+    creativeidea:'slide11_createive_idea',
+    credit:
+      '<div class="title">原創故事</div>'+
+      '夢想動畫 MoonShine Animation \n' +
+      '\n'+
+      '<div class="title">製作公司</div>'+
+      '夢境現實 Moondream Reality \n' +
+      '\n'
+    ,
+    images:['project11/album/p01.jpg','project11/album/p02.jpg' ]
+  },
+  {
     title: 'slide10_title',
-    subtitle: '植物情人',
+    subtitle: '花慕舞',
     description:'slide10_desc_brife',
     cover: 'project10/cover.jpeg',
     video:'',

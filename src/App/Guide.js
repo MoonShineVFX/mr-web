@@ -73,8 +73,10 @@ function Guide() {
                             
                           </td>
 
-                          <td>{t(`${item.title}`)} { item.title2 &&
-                              <div>{t(`${item.title2}`)}</div>
+                          <td>
+                            <Trans i18nKey={item.title}></Trans>
+                            { item.title2 &&
+                              <div> <Trans i18nKey={item.title2}></Trans></div>
                             }
                               {item.price && <div className='text_free'>{t(`${item.price}`)}</div>}
                           </td>

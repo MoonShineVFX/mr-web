@@ -27,6 +27,8 @@ function Carousel ({slides}) {
           return <a href={currData.ticket_link} target="__blank" className="btn blue">{t('order_ticket')}</a> ;
         case 'free_reserve':
         return <a href={currData.reserve_link} target="__blank" className="btn blue">{t('reserve_ticket')}</a> ;
+        case 'buyfirst':
+          return <a href={currData.ticket_link2} target="__blank" className="btn  blue2">{t('order_ticket_first')}</a> ;
         default:
           return 'foo';
       }
@@ -83,10 +85,13 @@ function Carousel ({slides}) {
                       <div className="description"><Trans i18nKey={currData.description}></Trans></div>
                       
                     </div>
-                    <div className="btnGrp">
+
+                    <div className="btnGrp ">
                       {renderSwitch(currData.ticket_type)}
-                      
+                      {currData.ticket_type2 && renderSwitch(currData.ticket_type2)}
+                  
                     </div>
+                    
 
                   </div>
                   <div className={`moreInfo show`}>
