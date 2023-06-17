@@ -143,7 +143,7 @@ function Report() {
               </div>
               <div className="item-map-text">
                 {t('mapInfo_business_hours')} <br/>
-                {t('mapInfo_business_address')}
+                {t('mapInfo_google')}
               </div>
             </div>
           </div>
