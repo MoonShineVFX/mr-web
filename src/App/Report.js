@@ -68,9 +68,9 @@ function Report() {
                   </div>
                   <div className="item-price-content" data-aos="fade-up" data-aos-delay="500">
                     <div className="item-price-content-border">
-                      <div>{t('guide_category_2')}</div>
+                      <div>{t('guide_category_4')}</div>
                     </div>
-                    <div className="item-price-content-number">NT$ <span>350</span> / 時間 <span>40 {t('minute')}</span></div>
+                    <div className="item-price-content-number">NT$ <span>300</span> / 時間 <span>60 {t('minute')}</span></div>
                   </div>
                 </div>
               </div>
