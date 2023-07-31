@@ -27,7 +27,7 @@ const array = [
     subtitle: '花慕舞',
     description:'slide10_desc_brife',
     cover: 'project10/cover.jpeg',
-    video:'',
+    video:'https://www.youtube.com/watch?v=WW1Y7wRNqT4',
     reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     ticket_type:'buy',
