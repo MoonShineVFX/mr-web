@@ -50,11 +50,23 @@ export const data_9 = [
 ]
 
 export const month_data = [
+  {title:'aug_title',index:4},
   {title:'jul_title',index:4},
-  {title:'jun_title',index:4},
 ]
 
 export const data = [
+  {
+    id:5,
+    title:'aug_title',
+    data:[
+      { time:"14:00",	show:"show_name_9",	title:"guide_category_4"},
+      { time:"15:00",	show:"show_name_9",	title:"guide_category_4"},
+      { time:"16:00",	show:"show_name_6",show2:"show_name_8",	title:"guide_category_1",title2:"guide_category_2"},
+      { time:"17:00",	show:"mar_show_name_5",	title:"guide_category_2"},
+      { time:"18:00",	show:"show_name_6",show2:"show_name_8",	title:"guide_category_1",title2:"guide_category_2"},
+      { time:"19:00",	show:"mar_show_name_3",	title:"guide_category_2"},
+    ]
+  },
   {
     id:5,
     title:'jul_title',

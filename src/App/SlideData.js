@@ -20,7 +20,7 @@ const array = [
       '夢境現實 Moondream Reality \n' +
       '\n'
     ,
-    images:['project11/album/p01.jpg','project11/album/p02.jpg' ]
+    images:['project11/album/p02.jpg','project11/album/p03.jpg','project11/album/p04.jpg' ]
   },
   {
     title: 'slide10_title',
