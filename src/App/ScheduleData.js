@@ -58,7 +58,7 @@ export const data = [
   {
     id:5,
     title:'sep_title',
-    subtitle:'將有重量級展演活動，詳情請關注社群頁面！',
+    subtitle:'僅開館9/1-9/3，將有重量級展演活動，詳情請關注社群頁面！',
     data:[
       { time:"14:00",	show:"show_name_9",	title:"guide_category_4"},
       { time:"15:00",	show:"show_name_9",	title:"guide_category_4"},
