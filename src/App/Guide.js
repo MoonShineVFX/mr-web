@@ -18,12 +18,18 @@ function Guide() {
   return (
     <div className='guide'>
       <div className="container">
+          <div className='rest'>
+            <img src="https://moonshine.b-cdn.net/msweb/moondream/rest.png?width=1280" alt=""
+             className=''/>
+          </div>
+      </div>
+      <div className="container" style={{display:'none'}}>
           <div className="main-title">
             <h1>{t('guide_title')}</h1>
           </div>
       </div>
       
-      <div className="container">
+      <div className="container" style={{display:'none'}}>
         <div className="items">
           <div className="content">
             <div className='data-list'>
