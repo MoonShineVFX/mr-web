@@ -19,17 +19,17 @@ function Guide() {
     <div className='guide'>
       <div className="container">
           <div className='rest'>
-            <img src="https://moonshine.b-cdn.net/msweb/moondream/rest.png?width=1280" alt=""
+            <img src="https://moonshine.b-cdn.net/msweb/moondream/rest-2.png?width=1280" alt="休館公告"
              className=''/>
           </div>
       </div>
-      <div className="container" style={{display:'none'}}>
+      <div className="container" >
           <div className="main-title">
             <h1>{t('guide_title')}</h1>
           </div>
       </div>
       
-      <div className="container" style={{display:'none'}}>
+      <div className="container" >
         <div className="items">
           <div className="content">
             <div className='data-list'>

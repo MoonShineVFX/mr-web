@@ -1,5 +1,21 @@
 const array = [
   {
+    title: 'slide12_title',
+    subtitle: '夢境V派對',
+    description:'slide12_desc_brife',
+    cover: 'project12/cover.jpeg',
+    video:'',
+    reserve_link :'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy_10',
+    ticket_link2:'https://play.niceday.tw/product/7498',
+    ticket_type2:'',
+    tag: 'Vtuber 演唱會',
+    creativeidea:'slide12_createive_idea',
+    credit:"",
+    images:['project12/p01.jpg']
+  },
+  {
     title: 'slide11_title',
     subtitle: '懶懶與可可',
     description:'slide11_desc_brife',
