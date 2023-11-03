@@ -251,6 +251,17 @@ body{
             filter:brightness(1.4);
           }
         }
+        .unactive{
+          font-size: 14px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          color: #000;
+          transition: 0.3s;
+          flex-direction: column;
+          height: 100%;
+        }
         .gray{ background: #ddd;}
         .white{background: #fff;}
         .blue{background: #5745fa;}

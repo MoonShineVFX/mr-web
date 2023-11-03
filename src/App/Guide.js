@@ -17,12 +17,7 @@ function Guide() {
   }
   return (
     <div className='guide'>
-      <div className="container">
-          <div className='rest'>
-            <img src="https://moonshine.b-cdn.net/msweb/moondream/rest-2.png?width=1280" alt="休館公告"
-             className=''/>
-          </div>
-      </div>
+
       <div className="container" >
           <div className="main-title">
             <h1>{t('guide_title')}</h1>

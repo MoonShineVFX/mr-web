@@ -89,7 +89,7 @@ function Carousel ({slides}) {
                     </div>
 
                     <div className="btnGrp ">
-                      {renderSwitch(currData.ticket_type)}
+                      {currData.active ? renderSwitch(currData.ticket_type) : <div className="unactive gray">下映</div>}
                       {currData.ticket_type2&& renderSwitch(currData.ticket_type2)}
                   
                     </div>

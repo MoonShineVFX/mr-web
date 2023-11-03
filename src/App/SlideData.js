@@ -4,7 +4,7 @@ const array = [
     subtitle: '夢境V派對',
     description:'slide12_desc_brife',
     cover: 'project12/cover.jpeg',
-    video:'',
+    video:'https://www.youtube.com/watch?v=FLVxtxZhh48',
     reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     ticket_type:'buy_10',
@@ -13,7 +13,8 @@ const array = [
     tag: 'Vtuber 演唱會',
     creativeidea:'slide12_createive_idea',
     credit:"",
-    images:['project12/p01.jpg']
+    images:['project12/p01.jpg'],
+    active:true
   },
   {
     title: 'slide11_title',
@@ -36,7 +37,8 @@ const array = [
       '夢境現實 Moondream Reality \n' +
       '\n'
     ,
-    images:['project11/album/p02.jpg','project11/album/p03.jpg','project11/album/p04.jpg' ]
+    images:['project11/album/p02.jpg','project11/album/p03.jpg','project11/album/p04.jpg' ],
+    active:true
   },
   {
     title: 'slide10_title',
@@ -59,7 +61,8 @@ const array = [
       '<div class="title">聲音設計 Sound Design</div>'+
       ' 莉莉周她說 Lily Chou-Chou Lied\n'
     ,
-    images:['project10/album/p01.jpg','project10/album/p02.jpg' ]
+    images:['project10/album/p01.jpg','project10/album/p02.jpg' ],
+    active:true
   },
   {
     title: 'slide9_title',
@@ -80,7 +83,8 @@ const array = [
       '<div class="title">繪本作者</div>'+
       ' 黃湘玲\n'
     ,
-    images:['project09/album/p01.jpg','project09/album/p02.jpg' ]
+    images:['project09/album/p01.jpg','project09/album/p02.jpg' ],
+    active:true
   },
   {
     title: 'slide8_title',
@@ -109,7 +113,8 @@ const array = [
       '<div class="title">藝術家</div>'+
       '葉廷皓\n'
     ,
-    images:['project08/album/p01.jpg','project08/album/p02.jpg' ]
+    images:['project08/album/p01.jpg','project08/album/p02.jpg' ],
+    active:false
   },
   {
     title: 'slide7_title',
@@ -127,7 +132,8 @@ const array = [
       '夢想動畫 MoonShine Animation\n' +
       '湠臺灣電影 thuànnTaiwan\n' 
     ,
-    images:['project07/album/p01.jpeg','project07/album/p02.jpeg','project07/album/p03.jpeg' ]
+    images:['project07/album/p01.jpeg','project07/album/p02.jpeg','project07/album/p03.jpeg' ],
+    active:false
   },
   {
     title: 'slide6_title',
@@ -147,7 +153,8 @@ const array = [
       '<div class="title">導演 Director</div>'+
       '王舒音 Dolce Wang\n' 
     ,
-    images:['project06/album/p01.jpg' ]
+    images:['project06/album/p01.jpg' ],
+    active:true
   },
   {
     title: 'slide4_title',
@@ -167,7 +174,8 @@ const array = [
       '<div class="title">導演 Director</div>'+
       '王舒音 Dolce Wang\n' 
     ,
-    images:['project04/album/p01.jpg' , 'project04/album/p02.jpg', 'project04/album/p03.jpg']
+    images:['project04/album/p01.jpg' , 'project04/album/p02.jpg', 'project04/album/p03.jpg'],
+    active:true
   },
   {
     title: "slide2_title",
@@ -187,7 +195,8 @@ const array = [
       '<div class="title">導演 Director</div>'+
       '李元君 Gin Lee\n'
     ,
-    images:['project02/album/act01.jpg' , 'project02/album/act03.jpg']
+    images:['project02/album/act01.jpg' , 'project02/album/act03.jpg'],
+    active:true
   },
   {
     title: 'slide3_title',
@@ -207,7 +216,8 @@ const array = [
       '<div class="title">導演 Director</div>'+
       '王舒音 Dolce Wang\n'
     ,
-    images: ['project03/album/p01.jpg' , 'project03/album/p02.jpg', 'project03/album/p03.jpg']
+    images: ['project03/album/p01.jpg' , 'project03/album/p02.jpg', 'project03/album/p03.jpg'],
+    active:true
   },
   {
     title: 'slide5_title',
@@ -227,7 +237,8 @@ const array = [
       '<div class="title">導演 Director</div>'+
       '劉育樹\n' 
     ,
-    images:['project05/album/p01.jpg' , 'project05/album/p02.jpg', 'project05/album/p03.jpg']
+    images:['project05/album/p01.jpg' , 'project05/album/p02.jpg', 'project05/album/p03.jpg'],
+    active:true
   },
   {
     title: 'slide1_title',
@@ -250,7 +261,8 @@ const array = [
       '<div class="title">弦樂 Strings</div>'+
       '龍俊宇 Chun-Yu Lung (Joy Music)\n'
     ,
-    images:['project01/album/mobi_act02.jpg' , 'project01/album/mobi_act03.jpg', 'project01/album/mobi_act04.jpg']
+    images:['project01/album/mobi_act02.jpg' , 'project01/album/mobi_act03.jpg', 'project01/album/mobi_act04.jpg'],
+    active:true
   }
 ];
 
