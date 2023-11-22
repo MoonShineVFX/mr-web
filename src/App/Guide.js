@@ -40,6 +40,7 @@ function Guide() {
           
           <div className="table-title">{t(`${currentData.title}`)}</div>
           {currentData.subtitle && <div className="table-subtitle">{t(`${currentData.subtitle}`)}</div>}
+          {currentData.subtitle2 && <div className="table-subtitle">{t(`${currentData.subtitle2}`)}</div>}
           
           <AnimatePresence>
           {currentData.data && show && ( 
