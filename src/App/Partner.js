@@ -11,7 +11,7 @@ function Partner( props) {
               {props.logos.map((d,i)=>(
                 <li key={i}>
                   <a href={d.href ? d.href: '/'} target="__blank">
-                    <img className={d.classname ? d.classname  : ''} src={process.env.PUBLIC_URL+d.images} alt="" />
+                    <img className={d.classname ? d.classname  : ''} src={'https://moonshine.b-cdn.net/msweb/moondream/logo/'+d.images} alt="" />
                   </a>
                 </li>
               ))}

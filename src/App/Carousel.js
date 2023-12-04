@@ -54,7 +54,7 @@ function Carousel ({slides}) {
                   <div className="cover">
                   {currData.video?.length ===0  ? 
                     <div className='for-coverimg'>
-                      <img src={process.env.PUBLIC_URL+'/images/'+currData.cover} alt=""/>
+                      <img src={'https://moonshine.b-cdn.net/msweb/moondream/projects/'+currData.cover} alt=""/>
                     </div>
                   : 
                     <ReactPlayer
@@ -103,7 +103,7 @@ function Carousel ({slides}) {
                           currData ? 
                           currData.images.map((item,index)=>{
                             return(
-                              <div key={index}><img src={process.env.PUBLIC_URL+'/images/'+item} alt=""/></div>
+                              <div key={index}><img src={'https://moonshine.b-cdn.net/msweb/moondream/projects/'+item} alt=""/></div>
                             )
                           }):null
                         }

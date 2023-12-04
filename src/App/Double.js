@@ -6,13 +6,13 @@ function Double() {
     return (
       <div className="double container" data-aos="fade-up">
         <div className="double-item"  >
-          <div className="double-item-bg" style={{backgroundImage: "url(" + process.env.PUBLIC_URL+'/images/double/r1.png'+ ")"}}></div>
+          <div className="double-item-bg" style={{backgroundImage: "url(" + 'https://moonshine.b-cdn.net/msweb/moondream/double/'+'r1.png'+ ")"}}></div>
           <div className="title" > <Trans i18nKey="double1_title"></Trans></div>
           {/* <img src={r2} alt=""/> */}
           <div className="caption">{t('double1_dec')}</div>
         </div>
         <div className="double-item">
-          <div className="double-item-bg" style={{backgroundImage: "url(" + process.env.PUBLIC_URL+'/images/double/r2.png'+ ")"}}></div>
+          <div className="double-item-bg" style={{backgroundImage: "url(" +'https://moonshine.b-cdn.net/msweb/moondream/double/'+'r2.png'+ ")"}}></div>
           <div className="title" ><Trans i18nKey="double2_title"></Trans></div>
           {/* <img src={r2} alt=""/> */}
           <div className="caption">{t('double2_dec')}</div>
