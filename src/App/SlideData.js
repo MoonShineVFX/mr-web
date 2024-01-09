@@ -14,7 +14,7 @@ const array = [
     creativeidea:'slide12_createive_idea',
     credit:"",
     images:['project12/p01.jpg'],
-    active:true
+    active:false
   },
   {
     title: 'slide11_title',
@@ -62,7 +62,7 @@ const array = [
       ' 莉莉周她說 Lily Chou-Chou Lied\n'
     ,
     images:['project10/album/p01.jpg','project10/album/p02.jpg' ],
-    active:true
+    active:false
   },
   {
     title: 'slide9_title',
@@ -238,7 +238,7 @@ const array = [
       '劉育樹\n' 
     ,
     images:['project05/album/p01.jpg' , 'project05/album/p02.jpg', 'project05/album/p03.jpg'],
-    active:true
+    active:false
   },
   {
     title: 'slide1_title',
@@ -262,7 +262,7 @@ const array = [
       '龍俊宇 Chun-Yu Lung (Joy Music)\n'
     ,
     images:['project01/album/mobi_act02.jpg' , 'project01/album/mobi_act03.jpg', 'project01/album/mobi_act04.jpg'],
-    active:true
+    active:false
   }
 ];
 
