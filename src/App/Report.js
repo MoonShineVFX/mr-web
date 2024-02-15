@@ -135,7 +135,7 @@ function Report() {
               <div className="item-map-content">
                 <div className="item-map-svg">
                   <a href="https://g.page/moondreamreality?share" target="_blank" rel="noreferrer">
-                   <img src={'https://moonshine.b-cdn.net/msweb/moondream/map/'+ t('mr_map_name_svg')} alt="" />
+                   <img src={'https://r2.web.moonshine.tw/msweb/moondream/map/'+ t('mr_map_name_svg')} alt="" />
                   </a>
                  
                 </div>

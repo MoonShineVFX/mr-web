@@ -54,7 +54,7 @@ function Carousel ({slides}) {
                   <div className="cover">
                   {currData.video?.length ===0  ? 
                     <div className='for-coverimg'>
-                      <img src={'https://moonshine.b-cdn.net/msweb/moondream/projects/'+currData.cover} alt=""/>
+                      <img src={'https://r2.web.moonshine.tw/msweb/moondream/projects/'+currData.cover} alt=""/>
                     </div>
                   : 
                     <ReactPlayer
@@ -89,7 +89,7 @@ function Carousel ({slides}) {
                     </div>
 
                     <div className="btnGrp ">
-                      {currData.active ? renderSwitch(currData.ticket_type) : <div className="unactive gray">下映</div>}
+                      {currData.active ? renderSwitch(currData.ticket_type) : currData.status === 'finished' ?<div className="unactive gray">下映</div> :  <div className="unactive gray">即將上映</div>}
                       {currData.ticket_type2&& renderSwitch(currData.ticket_type2)}
                   
                     </div>
@@ -103,7 +103,7 @@ function Carousel ({slides}) {
                           currData ? 
                           currData.images.map((item,index)=>{
                             return(
-                              <div key={index}><img src={'https://moonshine.b-cdn.net/msweb/moondream/projects/'+item} alt=""/></div>
+                              <div key={index}><img src={'https://r2.web.moonshine.tw/msweb/moondream/projects/'+item} alt=""/></div>
                             )
                           }):null
                         }

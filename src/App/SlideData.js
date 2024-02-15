@@ -1,5 +1,26 @@
 const array = [
   {
+    title: 'slide13_title',
+    subtitle: '森林鬱',
+    description:'slide13_desc_brife',
+    cover: 'project13/cover.jpeg',
+    video:'https://www.youtube.com/watch?v=hegawOcFWhs',
+    reserve_link :'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
+    ticket_link2:'',
+    ticket_type2:'',
+    tag: '沉浸式劇場',
+    creativeidea:'slide13_createive_idea',
+    credit:
+      '<div class="title">製作公司</div>'+
+      '夢想動畫 MoonShine Animation \n' +
+      '\n',
+    images:['project13/p01.jpg'],
+    active:false,
+    status:'holding'
+  },
+  {
     title: 'slide12_title',
     subtitle: '夢境V派對',
     description:'slide12_desc_brife',
@@ -14,7 +35,8 @@ const array = [
     creativeidea:'slide12_createive_idea',
     credit:"",
     images:['project12/p01.jpg'],
-    active:false
+    active:false,
+    status:'finished'
   },
   {
     title: 'slide11_title',
@@ -38,7 +60,8 @@ const array = [
       '\n'
     ,
     images:['project11/album/p02.jpg','project11/album/p03.jpg','project11/album/p04.jpg' ],
-    active:true
+    active:true,
+    status:'started'
   },
   {
     title: 'slide10_title',
@@ -62,7 +85,8 @@ const array = [
       ' 莉莉周她說 Lily Chou-Chou Lied\n'
     ,
     images:['project10/album/p01.jpg','project10/album/p02.jpg' ],
-    active:false
+    active:false,
+    status:'finished'
   },
   {
     title: 'slide9_title',
@@ -84,7 +108,8 @@ const array = [
       ' 黃湘玲\n'
     ,
     images:['project09/album/p01.jpg','project09/album/p02.jpg' ],
-    active:true
+    active:true,
+    status:'started'
   },
   {
     title: 'slide8_title',
@@ -114,7 +139,8 @@ const array = [
       '葉廷皓\n'
     ,
     images:['project08/album/p01.jpg','project08/album/p02.jpg' ],
-    active:false
+    active:false,
+    status:'finished'
   },
   {
     title: 'slide7_title',
@@ -133,7 +159,8 @@ const array = [
       '湠臺灣電影 thuànnTaiwan\n' 
     ,
     images:['project07/album/p01.jpeg','project07/album/p02.jpeg','project07/album/p03.jpeg' ],
-    active:false
+    active:false,
+    status:'finished'
   },
   {
     title: 'slide6_title',
@@ -154,7 +181,8 @@ const array = [
       '王舒音 Dolce Wang\n' 
     ,
     images:['project06/album/p01.jpg' ],
-    active:true
+    active:true,
+    status:'started'
   },
   {
     title: 'slide4_title',
@@ -175,7 +203,8 @@ const array = [
       '王舒音 Dolce Wang\n' 
     ,
     images:['project04/album/p01.jpg' , 'project04/album/p02.jpg', 'project04/album/p03.jpg'],
-    active:true
+    active:true,
+    status:'started'
   },
   {
     title: "slide2_title",
@@ -196,7 +225,8 @@ const array = [
       '李元君 Gin Lee\n'
     ,
     images:['project02/album/act01.jpg' , 'project02/album/act03.jpg'],
-    active:true
+    active:true,
+    status:'started'
   },
   {
     title: 'slide3_title',
@@ -217,7 +247,8 @@ const array = [
       '王舒音 Dolce Wang\n'
     ,
     images: ['project03/album/p01.jpg' , 'project03/album/p02.jpg', 'project03/album/p03.jpg'],
-    active:true
+    active:true,
+    status:'started'
   },
   {
     title: 'slide5_title',
@@ -238,7 +269,8 @@ const array = [
       '劉育樹\n' 
     ,
     images:['project05/album/p01.jpg' , 'project05/album/p02.jpg', 'project05/album/p03.jpg'],
-    active:false
+    active:false,
+    status:'finished'
   },
   {
     title: 'slide1_title',
@@ -262,7 +294,8 @@ const array = [
       '龍俊宇 Chun-Yu Lung (Joy Music)\n'
     ,
     images:['project01/album/mobi_act02.jpg' , 'project01/album/mobi_act03.jpg', 'project01/album/mobi_act04.jpg'],
-    active:false
+    active:false,
+    status:'finished'
   }
 ];
 

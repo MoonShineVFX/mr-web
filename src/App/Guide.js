@@ -17,7 +17,19 @@ function Guide() {
   }
   return (
     <div className='guide'>
+      <div className='container'>
+        <div>
+          <img 
+            src="https://r2.web.moonshine.tw/opt/lg/msweb/moondream/march_rest.png" 
+            alt="" 
+            style={{
+              width:'100%'
+            }}
+           />
+        </div>
 
+
+      </div>
       <div className="container" >
           <div className="main-title">
             <h1>{t('guide_title')}</h1>
@@ -25,6 +37,7 @@ function Guide() {
       </div>
       
       <div className="container" >
+
         <div className="items">
           <div className="content">
             <div className='data-list'>

@@ -51,8 +51,6 @@ export const data_9 = [
 
 export const month_data = [
   {title:'feb_title',index:4},
-  {title:'jan_title',index:4},
-
 ]
 
 export const data = [
