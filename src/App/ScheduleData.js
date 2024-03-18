@@ -63,7 +63,7 @@ export const data = [
       { time:"14:00",	show:"show_name_9",	title:"guide_category_4"},
       { time:"15:00",	show:"mar_show_name_3",title:"guide_category_2"},
       { time:"16:00",	show:"show_name_9",	title:"guide_category_4"},
-      { time:"17:00",	show:"show_name_6",show2:"show_name_10",	title:"guide_category_1",title2:"guide_category_2"},
+      { time:"17:00",	show:"show_name_13",show2:"show_name_10",	title:"guide_category_1",title2:"guide_category_2"},
       { time:"18:00",	show:"show_name_6",show2:"show_name_10",	title:"guide_category_1",title2:"guide_category_2"},
     ]
   },  {
@@ -73,7 +73,7 @@ export const data = [
       { time:"14:00",	show:"show_name_9",	title:"guide_category_4"},
       { time:"15:00",	show:"mar_show_name_3",title:"guide_category_2"},
       { time:"16:00",	show:"show_name_9",	title:"guide_category_4"},
-      { time:"17:00",	show:"show_name_6",show2:"show_name_10",	title:"guide_category_1",title2:"guide_category_2"},
+      { time:"17:00",	show:"show_name_13",show2:"show_name_10",	title:"guide_category_1",title2:"guide_category_2"},
       { time:"18:00",	show:"show_name_6",show2:"show_name_10",	title:"guide_category_1",title2:"guide_category_2"},
     ]
   },
