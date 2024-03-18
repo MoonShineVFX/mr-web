@@ -139,22 +139,26 @@
           text-align: center;
         }
         .content{
-        .dates_info{
-          flex-direction: column;
-          .dates_date{
+          .dates_info{
+            flex-direction: column;
+            .dates_date{
+              width: 100%;
+            }
+          }
+          .data-list{
+            flex-direction: column;
+            width: 70%;
+          }
+          .guide_table {
             width: 100%;
           }
-        }
-        .data-list{
-          flex-direction: column;
-          width: 70%;
-        }
-        
+          
         }
 
       }
 
     }
+
     .partner {
       .title{
         font-size: 30px;

@@ -63,7 +63,7 @@ function Report() {
                       <div>+</div>
                       <div>{t('guide_category_1')}</div>
                     </div>
-                    <div className="item-price-content-number">NT$ <span>399</span> / 時間  <span>60 {t('minute')}</span></div>
+                    <div className="item-price-content-number">NT$ <span>299</span> / 時間  <span>60 {t('minute')}</span></div>
 
                   </div>
                   <div className="item-price-content" data-aos="fade-up" data-aos-delay="500">

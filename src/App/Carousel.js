@@ -29,7 +29,7 @@ function Carousel ({slides}) {
           return <a href={currData.ticket_link} target="__blank" className="btn blue">{t('order_ticket_10')}</a> ;
         case 'free_reserve':
         return <a href={currData.reserve_link} target="__blank" className="btn blue">{t('reserve_ticket')}</a> ;
-        case 'buyfirst':
+        case 'buyfirst':  
           return <a href={currData.ticket_link2} target="__blank" className="btn  blue2">{t('order_ticket_first')}</a> ;
         default:
           return 'foo';
