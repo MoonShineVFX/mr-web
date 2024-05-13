@@ -18,15 +18,7 @@ function Guide() {
   return (
     <div className='guide'>
       <div className='container'>
-        <div>
-          <img 
-            src="https://r2.web.moonshine.tw/opt/lg/msweb/moondream/march_rest.png" 
-            alt="" 
-            style={{
-              width:'100%'
-            }}
-           />
-        </div>
+
 
 
       </div>
