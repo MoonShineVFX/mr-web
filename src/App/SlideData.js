@@ -10,7 +10,7 @@ const array = [
     ticket_type:'buy',
     ticket_link2:'',
     ticket_type2:'',
-    tag: '沉浸式劇場',
+    tag: '兒童劇場(雙語互動劇)',
     creativeidea:'slide14_createive_idea',
     credit:
       '<div class="title">原創故事</div>'+
