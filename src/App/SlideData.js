@@ -1,5 +1,29 @@
 const array = [
   {
+    title: 'slide14_title',
+    subtitle: '懶懶與可可 《第二季：狂歡派對》',
+    description:'slide14_desc_brife',
+    cover: 'project14/cover.jpeg',
+    video:'',
+    reserve_link :'no',
+    ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
+    ticket_type:'buy',
+    ticket_link2:'',
+    ticket_type2:'',
+    tag: '沉浸式劇場',
+    creativeidea:'slide14_createive_idea',
+    credit:
+      '<div class="title">原創故事</div>'+
+      '夢想動畫 MoonShine Animation \n' +
+      '\n'+
+      '<div class="title">製作公司</div>'+
+      '夢境現實 Moondream Reality \n' +
+      '\n',
+    images:['project14/p01.jpg'],
+    active:false,
+    status:'holding'
+  },
+  {
     title: 'slide13_title',
     subtitle: '森林鬱',
     description:'slide13_desc_brife',
@@ -17,7 +41,7 @@ const array = [
       '夢想動畫 MoonShine Animation \n' +
       '\n',
     images:['project13/p01.jpg'],
-    active:false,
+    active:true,
     status:'holding'
   },
   {
@@ -113,14 +137,14 @@ const array = [
   },
   {
     title: 'slide8_title',
-    subtitle: '《海與幻》沉浸式投影',
+    subtitle: '海與幻',
     description:'slide8_desc_brife',
     cover: 'project08/cover.png',
     video:'https://www.youtube.com/watch?v=8M6nibtLxz4',
     reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     ticket_type:'buy',
-    tag: '沉浸式劇場',
+    tag: 'MR互動體驗',
     creativeidea:'slide8_createive_idea',
     credit:
       '<div class="title">藝術家</div>'+
@@ -144,7 +168,7 @@ const array = [
   },
   {
     title: 'slide7_title',
-    subtitle: '《流麻溝十五號》沉浸版',
+    subtitle: '流麻溝十五號 沉浸版',
     description:'slide7_desc_brife',
     cover: 'project06/cover.png',
     video:'https://youtu.be/By0gv9w9NfI',
