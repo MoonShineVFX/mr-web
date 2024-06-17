@@ -8,8 +8,8 @@ const array = [
     reserve_link :'no',
     ticket_link:'https://www.kkday.com/zh-tw/product/126021?cid=12838',
     ticket_type:'buy',
-    ticket_link2:'',
-    ticket_type2:'',
+    ticket_link2:'https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6',
+    ticket_type2:'buyfirst',
     tag: '兒童劇場(雙語互動劇)',
     creativeidea:'slide14_createive_idea',
     credit:
@@ -20,8 +20,8 @@ const array = [
       '夢境現實 Moondream Reality \n' +
       '\n',
     images:['project14/p01.jpg'],
-    active:false,
-    status:'holding'
+    active:true,
+    status:'started'
   },
   {
     title: 'slide13_title',

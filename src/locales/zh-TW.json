@@ -109,12 +109,16 @@
   "dec_subtitle":"12/15 - 12/16 夢境V派對直播特別活動 詳情可至臉書社群",
   "dec_subtitle2":"12/29 - 12/31 完成跨年任務 #免費欣賞《 植物情人 》",
   "dec_eve_subtitle":"12/29、12/30、12/31 限定，完成跨年任務 #免費欣賞《 植物情人 》",
+  "jul_subtitle":"出發前請務必至 FB、IG 確認當日營運狀況。七八月份暫無MR互動式演出場次 ",
+  "aug_subtitle":"出發前請務必至 FB、IG 確認當日營運狀況。七八月份暫無MR互動式演出場次 ",
   "guide_freeticket":"免費入場",
   "guide_category_1":"沉浸式劇場",
   "guide_category_2":"MR互動(混合實境)",
   "guide_category_3":"MR互動(混合實境)+沉浸式劇場",
   "guide_category_4":"兒童劇場<br/>(雙語互動劇)",
   "guide_category_5":"Vtuber 演唱會",
+  "guide_category_6":"兒童劇場。球池版",
+  "guide_category_7":"沉浸式劇場。球池版",
   "show_name_1":"《流麻溝十五號》沉浸版",
   "show_name_2":"《聲林協奏曲 石虎樂章》+ 《海與幻》",
   "show_name_3":"《河馬圓舞曲 》+《鶴之舞 》+《海與幻》",
@@ -138,6 +142,6 @@
   "show_name_16":"花慕舞",
   "show_name_17":"植物情人",
   "show_name_18":"懶懶與可可",
-  "show_name_19":"懶懶與可可 《第二季：狂歡派對》"
-
+  "show_name_19":"懶懶與可可 《第二季：狂歡派對》",
+  "show_name_20":"《宇宙大未來》"
 }

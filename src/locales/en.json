@@ -109,6 +109,8 @@
   "dec_subtitle":"12/15 - 12/16  Special Event: Moondream VFest. Livestream.",
   "dec_subtitle2":"12/29 - 12/31  New Year's Eve Mission for #Free Access 《 The Plant Lover 》",
   "dec_eve_subtitle":"12/29、12/30、12/31 ONLY New Year's Eve Mission for #Free Access 《 The Plant Lover 》",
+  "jul_subtitle":"Check FB and IG for daily updates before departure. No MR interactive performances in July and August.",
+  "aug_subtitle":"Check FB and IG for daily updates before departure. No MR interactive performances in July and August.",
   "guide_freeticket":"(FREE)",
   "guide_category_1":"Projection Theater",
   "guide_category_2":"Mixed Reality",
@@ -116,6 +118,8 @@
   "show_name_1":"《Untold Ｈerstory》immersive version",
   "guide_category_4":"Children's Theater <br/> (Bilinguistic Interactive Showcase)",
   "guide_category_5":"Vtuber Concert",
+  "guide_category_6":"Kid's Theater ･ Ball Pit",
+  "guide_category_7":"Immersive Theater",
   "show_name_2":"《Formosan Harmony》+《Nature Reality》",
   "show_name_3":"《Underwater Hippo Circus》+《Flamingo》+《Nature Reality》",
   "show_name_4":"《Nature Reality》",
@@ -132,5 +136,12 @@
   "show_name_10":"Flamingo",
   "show_name_11":"Rebirth",
   "show_name_12":"Moondream Vfest.",
-  "show_name_13":"《LUSH》"
+  "show_name_13":"《LUSH》",
+  "show_name_14":"Untold Herstory",
+  "show_name_15":"Nature Reality",
+  "show_name_16":"Flora Fantasia",
+  "show_name_17":"The Plant Flower",
+  "show_name_18":"LAN & KOKO",
+  "show_name_19":"LAN & KOKO Season 2: The Grand Party!",
+  "show_name_20":"《SUPER STARSHIP》"
 }
