@@ -76,7 +76,7 @@ export const data = [
       { time:"11:00、12:30、14:00",	show:"show_name_18",	title:"guide_category_6"},
       { time:"11:30、13:00、14:30",	show:"show_name_19",title:"guide_category_6"},
       { time:"12:00、13:30、15:00",	show:"show_name_20",	title:"guide_category_6"},
-      { time:"16:00~18:00",	show:"show_name_13",show2:"show_name_17",	title:"guide_category_7",title2:"guide_category_7"},
+      { time:"16:00~18:00",	show:"show_name_13",show2:"show_name_6",	title:"guide_category_7",title2:"guide_category_7"},
     ]
   },
   {
@@ -87,7 +87,7 @@ export const data = [
       { time:"11:00、12:30、14:00",	show:"show_name_18",	title:"guide_category_6"},
       { time:"11:30、13:00、14:30",	show:"show_name_19",title:"guide_category_6"},
       { time:"12:00、13:30、15:00",	show:"show_name_20",	title:"guide_category_6"},
-      { time:"16:00~18:00",	show:"show_name_13",show2:"show_name_17",	title:"guide_category_7",title2:"guide_category_7"},
+      { time:"16:00~18:00",	show:"show_name_13",show2:"show_name_6",	title:"guide_category_7",title2:"guide_category_7"},
     ]
   },
 ]

@@ -875,9 +875,13 @@ body{
 /*social*/
 .social{
   width: 100%;
+  position: fixed;
+  top:0px;
+  z-index: 9999;
   ul{
     display: flex;
     justify-content: flex-end;
+    margin: 0;
     li{
       margin-right: 15px;
       cursor: pointer;

@@ -17,6 +17,18 @@
         }
       }
     }
+    .social{
+      width: 100%;
+      position: relative;
+      ul{
+        justify-content: end;
+        gap: 3px;
+        li{
+          margin-right: 0px;
+          height: 35px;
+        }
+      }
+    }
     .carousel-section{
       width: 90%;
       margin: 0 auto ;
