@@ -20,7 +20,13 @@ const array = [
       '<div class="title">製作公司</div>' +
       "夢境現實 Moondream Reality \n" +
       "\n",
-    images: ["project14/p01.jpg"],
+    images: [
+      "project14/p01.jpg",
+      "project14/p02.jpg",
+      "project14/p03.jpg",
+      "project14/p04.jpg",
+      "project14/p05.jpg",
+    ],
     active: true,
     status: "started",
   },

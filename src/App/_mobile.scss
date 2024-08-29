@@ -1,226 +1,225 @@
 @media (max-width: 767px) {
 }
 @media (max-width: 480px) {
-    .header {
+  .header {
+    width: 100%;
+    margin-bottom: 30px;
+    .logo {
+      width: 25px;
+    }
+    .standardword-eng {
+      font-size: 1.5em;
+      text-shadow: 0.1em 0.1em 0px #f8f8f871;
       width: 100%;
-      margin-bottom: 30px;
-      .logo{
-        width: 25px;
-          
-      }
-      .standardword-eng{
-        font-size: 1.5em;
-        text-shadow: 0.1em 0.1em 0px #f8f8f871;
+      img {
         width: 100%;
-        img{
+      }
+    }
+  }
+  .social {
+    width: 100%;
+    position: relative;
+    ul {
+      justify-content: end;
+      gap: 3px;
+      li {
+        margin-right: 0px;
+        height: 35px;
+      }
+    }
+  }
+  .carousel-section {
+    width: 90%;
+    margin: 0 auto;
+    .carousel {
+      min-height: 300px;
+      .carousel-item {
+        flex-direction: column;
+        .cover {
+          min-height: auto;
+          position: relative;
+          padding-top: 56.25%;
+          .react-player {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+        .info {
+          .btnGrp {
+            height: 70px;
+          }
+          .hashtag {
+            margin-left: 10px;
+          }
+          .info-detail {
+            padding: 8px 20px;
+            display: flex;
+            .borderLine {
+              display: none;
+            }
+            .description {
+              display: none;
+            }
+          }
+        }
+        .moreInfo {
+          flex-direction: column;
+          .moreInfo-content {
+            padding: 20px 20px;
+            flex-direction: column;
+            .moreInfo-content-album {
+              margin-right: 0;
+              width: 100%;
+              img {
+                width: 100%;
+              }
+            }
+            .moreInfo-content-desc {
+              width: 100%;
+              margin-top: 15px;
+            }
+          }
+        }
+      }
+    }
+    .navBtnGrp {
+      width: 100%;
+      top: 28%;
+    }
+  }
+  .container {
+    width: 92%;
+  }
+  .fbvideo-container {
+    .fbvideo-content {
+      iframe {
+        min-height: auto;
+      }
+    }
+  }
+  .about {
+    .title {
+      font-size: 30px;
+      padding-right: 32px;
+    }
+  }
+  .double {
+    flex-direction: column;
+    margin-bottom: 10px;
+    .double-item {
+      width: 100%;
+      height: 400px;
+    }
+  }
+  .report {
+    .main-title {
+      font-size: 22px;
+      text-align: center;
+    }
+    .items {
+      .report-content {
+        .item-parallax {
+          width: 100%;
+          .item-parallax-content {
+          }
+        }
+      }
+      .item-map {
+        &:after {
+          left: 0px;
+          height: 396px;
+          overflow: hidden;
+        }
+        .item-map-content {
+          width: 100%;
+          .item-map-googlemap {
+            width: 100%;
+            height: 250px;
+          }
+        }
+        .item-map-svg {
+          width: 80%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  .guide {
+    .items {
+      .table-title {
+        width: 70%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+      }
+      .content {
+        .dates_info {
+          flex-direction: column;
+          .dates_date {
+            width: 100%;
+          }
+        }
+        .data-list {
+          flex-direction: column;
+          width: 70%;
+        }
+        .guide_table {
           width: 100%;
         }
       }
     }
-    .social{
+  }
+
+  .partner {
+    .title {
+      font-size: 30px;
+      line-height: 30px;
       width: 100%;
-      position: relative;
-      ul{
-        justify-content: end;
-        gap: 3px;
-        li{
-          margin-right: 0px;
-          height: 35px;
-        }
+      &:after {
+        height: 50px;
+        overflow: hidden;
       }
     }
-    .carousel-section{
-      width: 90%;
-      margin: 0 auto ;
-      .carousel{
-        min-height: 300px;
-        .carousel-item{
-          flex-direction: column;
-          .cover{
-            min-height: auto;
-            position: relative;
-            padding-top: 56.25% ;
-            .react-player{
-              position: absolute;
-              top: 0;
-              left: 0;
-            }
-          }
-          .info{
-            .btnGrp{
-              height: 70px;
-            }
-            .hashtag{
-              margin-left: 10px;
-            }
-            .info-detail{
-              padding: 8px 20px;
-              display: flex;
-              .borderLine{ display: none;}
-              .description{ display: none; }
-            }
-          }
-          .moreInfo {
-            flex-direction: column;
-            .moreInfo-content{
-              padding: 20px 20px;
-              flex-direction: column;
-              .moreInfo-content-album{
-                margin-right: 0;
-                img{
-                  width: 100%;
-                }
-              }
-              .moreInfo-content-desc{
-                width: 100%;
-                margin-top: 15px;
-              }
-            }
-          }
-        }
-      }
-      .navBtnGrp{
-        width: 100%;
-        top: 28%;
-      }
-    }
-    .container{
-      width: 92%;
-    }
-    .fbvideo-container{
-      .fbvideo-content{
-        iframe{
-          min-height: auto;
-        }
-      }
-    }
-    .about{
-      .title{
-        font-size: 30px;
-        padding-right: 32px;
-      }
-    }
-    .double{
-      flex-direction: column;
-      margin-bottom: 10px;
-      .double-item{
-        width: 100%;
-        height: 400px;
-      }
-    }
-    .report{
-      .main-title{
-        font-size: 22px;
-        text-align: center;
-      }
-      .items {
-        .report-content{
-          .item-parallax{
-              width: 100%;
-            .item-parallax-content{
-
-            }
-          }
-        }
-        .item-map{
-          &:after{
-            left: 0px;
-            height: 396px;
-            overflow: hidden;
-          }
-          .item-map-content{
-            width: 100%;
-            .item-map-googlemap{
-              width: 100%;
-              height: 250px;
-            }
-          }
-          .item-map-svg{
-            width: 80%;
-            margin: 0 auto;
+    .partner-lists {
+      .partner-lists-ul {
+        gap: 2rem;
+        li {
+          a {
+            max-width: 110px;
           }
         }
       }
     }
-    .guide{
-      .items{
-        .table-title{
-          width: 70%;
-          font-size: 20px;
-          letter-spacing: 1px;
-          text-align: center;
-        }
-        .content{
-          .dates_info{
-            flex-direction: column;
-            .dates_date{
-              width: 100%;
-            }
-          }
-          .data-list{
-            flex-direction: column;
-            width: 70%;
-          }
-          .guide_table {
-            width: 100%;
-          }
-          
-        }
-
-      }
-
+  }
+  .banner {
+    .banner-text {
+      font-size: 25px;
+      left: 10%;
     }
-
-    .partner {
-      .title{
-        font-size: 30px;
-        line-height: 30px;
-        width: 100%;
-        &:after{
-          height: 50px;
+  }
+  .precaution {
+    .items {
+      .item-precaution {
+        .item-desc {
+          margin-top: 10px;
+          line-height: 25px;
+        }
+        &:after {
           overflow: hidden;
         }
       }
-      .partner-lists{
-       .partner-lists-ul{
-         gap:2rem;
-         li{
-           a{
-            max-width: 110px;
-           }
-         }
-       } 
-      }
     }
-    .banner{
-      .banner-text{
-        font-size: 25px;
-        left: 10%;
-      }
-    }
-    .precaution{
-      .items{
-        .item-precaution{
-          .item-desc{
-            margin-top: 10px;
-            line-height: 25px;
-          }
-          &:after{
-            overflow: hidden;
-          }
-        }
-      }
-    }
-
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .carousel-section{
+  .carousel-section {
     width: 100%;
-    .navBtnGrp{
+    .navBtnGrp {
       width: 100%;
     }
   }
-  .container{
+  .container {
     width: 100%;
   }
 }
