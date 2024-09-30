@@ -81,45 +81,13 @@ export const data_9 = [
   },
 ];
 
-export const month_data = [
-  { title: "aug_title", index: 4 },
-  { title: "sep_title", index: 4 },
-];
+export const month_data = [{ title: "oct_title", index: 4 }];
 
 export const data = [
   {
     id: 5,
-    title: "aug_title",
-    subtitle: "aug_subtitle",
-    data: [
-      {
-        time: "11:00、12:30、14:00",
-        show: "show_name_18",
-        title: "guide_category_6",
-      },
-      {
-        time: "11:30、13:00、14:30",
-        show: "show_name_19",
-        title: "guide_category_6",
-      },
-      {
-        time: "12:00、13:30、15:00",
-        show: "show_name_20",
-        title: "guide_category_6",
-      },
-      {
-        time: "16:00~18:00",
-        show: "show_name_13",
-        show2: "show_name_6",
-        title: "guide_category_7",
-        title2: "guide_category_7",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "sep_title",
-    subtitle: "sep_subtitle",
+    title: "oct_title",
+    subtitle: "oct_subtitle",
     data: [
       {
         time: "14:00",
