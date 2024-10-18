@@ -2,7 +2,7 @@ const array = [
   {
     title: "slide15_title",
     subtitle: "",
-    description: "slide14_desc_brife",
+    description: "slide15_desc_brife",
     cover: "project15/cover.jpg",
     video: "",
     reserve_link: "no",
@@ -12,7 +12,7 @@ const array = [
       "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
     ticket_type2: "",
     tag: "兒童劇場(雙語互動劇)",
-    creativeidea: "slide14_createive_idea",
+    creativeidea: "slide15_createive_idea",
     credit:
       '<div class="title">主辦單位</div>' +
       "富邦文教基金會 \n" +
