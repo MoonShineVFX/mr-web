@@ -1,5 +1,42 @@
 const array = [
   {
+    title: "slide15_title",
+    subtitle: "",
+    description: "slide14_desc_brife",
+    cover: "project15/cover.jpg",
+    video: "",
+    reserve_link: "no",
+    ticket_link: "https://linktr.ee/moondream.tw",
+    ticket_type: "buy",
+    ticket_link2:
+      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
+    ticket_type2: "",
+    tag: "兒童劇場(雙語互動劇)",
+    creativeidea: "slide14_createive_idea",
+    credit:
+      '<div class="title">主辦單位</div>' +
+      "富邦文教基金會 \n" +
+      "\n" +
+      '<div class="title">展覽統籌</div>' +
+      "dosomething studio\n" +
+      "\n" +
+      '<div class="title">製作公司</div>' +
+      "夢境現實 Moondream Reality \n" +
+      "\n" +
+      '<div class="title">協辦單位</div>' +
+      "高雄市政府文化局、高雄市電影館、數位發展部數位產業署、高雄市政府經濟發展局、臺灣產學策進會、momo親子台、MyVideo \n" +
+      "\n",
+    images: [
+      "project15/p01.jpg",
+      "project15/p02.jpg",
+      "project15/p03.jpg",
+      "project15/p04.jpg",
+      "project15/p05.jpg",
+    ],
+    active: true,
+    status: "started",
+  },
+  {
     title: "slide14_title",
     subtitle: "懶懶與可可 《第二季：狂歡派對》",
     description: "slide14_desc_brife",
@@ -10,7 +47,7 @@ const array = [
     ticket_type: "buy",
     ticket_link2:
       "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
-    ticket_type2: "buyfirst",
+    ticket_type2: "",
     tag: "兒童劇場(雙語互動劇)",
     creativeidea: "slide14_createive_idea",
     credit:
@@ -27,8 +64,8 @@ const array = [
       "project14/p04.jpg",
       "project14/p05.jpg",
     ],
-    active: true,
-    status: "started",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide13_title",
@@ -48,8 +85,8 @@ const array = [
       "夢想動畫 MoonShine Animation \n" +
       "\n",
     images: ["project13/p01.jpg"],
-    active: true,
-    status: "holding",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide12_title",
@@ -79,7 +116,7 @@ const array = [
     ticket_link: "https://www.kkday.com/zh-tw/product/126021?cid=12838",
     ticket_type: "buy",
     ticket_link2: "https://play.niceday.tw/product/7498",
-    ticket_type2: "buyfirst",
+    ticket_type2: "",
     tag: "兒童劇場(雙語互動劇)",
     creativeidea: "slide11_createive_idea",
     credit:
@@ -94,8 +131,8 @@ const array = [
       "project11/album/p03.jpg",
       "project11/album/p04.jpg",
     ],
-    active: true,
-    status: "started",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide10_title",
@@ -140,8 +177,8 @@ const array = [
       '<div class="title">繪本作者</div>' +
       " 黃湘玲\n",
     images: ["project09/album/p01.jpg", "project09/album/p02.jpg"],
-    active: true,
-    status: "started",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide8_title",
@@ -214,8 +251,8 @@ const array = [
       '<div class="title">導演 Director</div>' +
       "王舒音 Dolce Wang\n",
     images: ["project06/album/p01.jpg"],
-    active: true,
-    status: "started",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide4_title",
@@ -239,8 +276,8 @@ const array = [
       "project04/album/p02.jpg",
       "project04/album/p03.jpg",
     ],
-    active: true,
-    status: "started",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide2_title",
@@ -260,8 +297,8 @@ const array = [
       '<div class="title">導演 Director</div>' +
       "李元君 Gin Lee\n",
     images: ["project02/album/act01.jpg", "project02/album/act03.jpg"],
-    active: true,
-    status: "started",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide3_title",
@@ -285,8 +322,8 @@ const array = [
       "project03/album/p02.jpg",
       "project03/album/p03.jpg",
     ],
-    active: true,
-    status: "started",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide5_title",

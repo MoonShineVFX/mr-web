@@ -87,7 +87,6 @@ export const data = [
   {
     id: 5,
     title: "oct_title",
-    subtitle: "oct_subtitle",
     data: [
       {
         time: "14:00",
