@@ -27,7 +27,7 @@ const array = [
       "project14/p04.jpg",
       "project14/p05.jpg",
     ],
-    active: false,
+    active: true,
     status: "finished",
   },
   {
@@ -48,7 +48,7 @@ const array = [
       "夢想動畫 MoonShine Animation \n" +
       "\n",
     images: ["project13/p01.jpg"],
-    active: false,
+    active: true,
     status: "finished",
   },
   {
@@ -94,7 +94,7 @@ const array = [
       "project11/album/p03.jpg",
       "project11/album/p04.jpg",
     ],
-    active: false,
+    active: true,
     status: "finished",
   },
   {
@@ -140,7 +140,7 @@ const array = [
       '<div class="title">繪本作者</div>' +
       " 黃湘玲\n",
     images: ["project09/album/p01.jpg", "project09/album/p02.jpg"],
-    active: false,
+    active: true,
     status: "finished",
   },
   {
@@ -260,7 +260,7 @@ const array = [
       '<div class="title">導演 Director</div>' +
       "李元君 Gin Lee\n",
     images: ["project02/album/act01.jpg", "project02/album/act03.jpg"],
-    active: false,
+    active: true,
     status: "finished",
   },
   {
@@ -285,7 +285,7 @@ const array = [
       "project03/album/p02.jpg",
       "project03/album/p03.jpg",
     ],
-    active: false,
+    active: true,
     status: "finished",
   },
   {
