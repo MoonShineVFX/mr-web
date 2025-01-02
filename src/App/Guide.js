@@ -5,7 +5,7 @@ import { month_data, data_9, data } from "./ScheduleData";
 function Guide() {
   const { t, i18n } = useTranslation();
   const [currentData, setCurrentData] = useState(data[0]);
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const handleMonthClick = (index) => {
     setShow(false);
 
@@ -15,7 +15,7 @@ function Guide() {
     }, 1000);
   };
 
-  const [isSpecial, setIsSpecial] = useState(true);
+  const [isSpecial, setIsSpecial] = useState(false);
   return (
     <div className="guide">
       <div className="container"></div>

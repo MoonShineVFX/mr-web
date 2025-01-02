@@ -35,8 +35,8 @@ const array = [
       "project15/p06.jpg",
       "project15/p07.jpg",
     ],
-    active: true,
-    status: "started",
+    active: false,
+    status: "finished",
   },
   {
     title: "slide14_title",
