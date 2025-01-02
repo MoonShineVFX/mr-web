@@ -1,44 +1,5 @@
 const array = [
   {
-    title: "slide15_title",
-    subtitle: "",
-    description: "slide15_desc_brife",
-    cover: "project15/cover.jpg",
-    video: "https://youtu.be/1pa9h4XDvro",
-    reserve_link: "no",
-    ticket_link: "https://linktr.ee/moondream.tw",
-    ticket_type: "buy",
-    ticket_link2:
-      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
-    ticket_type2: "",
-    tag: "兒童劇場(雙語互動劇)",
-    creativeidea: "slide15_createive_idea",
-    credit:
-      '<div class="title">主辦單位</div>' +
-      "富邦文教基金會 \n" +
-      "\n" +
-      '<div class="title">展覽統籌</div>' +
-      "dosomething studio\n" +
-      "\n" +
-      '<div class="title">製作公司</div>' +
-      "夢境現實 Moondream Reality \n" +
-      "\n" +
-      '<div class="title">協辦單位</div>' +
-      "高雄市政府文化局、高雄市電影館、數位發展部數位產業署、高雄市政府經濟發展局、臺灣產學策進會、momo親子台、MyVideo \n" +
-      "\n",
-    images: [
-      "project15/p01.jpg",
-      "project15/p02.jpg",
-      "project15/p03.jpg",
-      "project15/p04.jpg",
-      "project15/p05.jpg",
-      "project15/p06.jpg",
-      "project15/p07.jpg",
-    ],
-    active: false,
-    status: "finished",
-  },
-  {
     title: "slide14_title",
     subtitle: "懶懶與可可 《第二季：狂歡派對》",
     description: "slide14_desc_brife",
@@ -383,3 +344,46 @@ const array = [
 ];
 
 export default array;
+
+// 備份
+const backArray = [
+  {
+    title: "slide15_title",
+    subtitle: "",
+    description: "slide15_desc_brife",
+    cover: "project15/cover.jpg",
+    video: "https://youtu.be/1pa9h4XDvro",
+    reserve_link: "no",
+    ticket_link: "https://linktr.ee/moondream.tw",
+    ticket_type: "buy",
+    ticket_link2:
+      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
+    ticket_type2: "",
+    tag: "兒童劇場(雙語互動劇)",
+    creativeidea: "slide15_createive_idea",
+    credit:
+      '<div class="title">主辦單位</div>' +
+      "富邦文教基金會 \n" +
+      "\n" +
+      '<div class="title">展覽統籌</div>' +
+      "dosomething studio\n" +
+      "\n" +
+      '<div class="title">製作公司</div>' +
+      "夢境現實 Moondream Reality \n" +
+      "\n" +
+      '<div class="title">協辦單位</div>' +
+      "高雄市政府文化局、高雄市電影館、數位發展部數位產業署、高雄市政府經濟發展局、臺灣產學策進會、momo親子台、MyVideo \n" +
+      "\n",
+    images: [
+      "project15/p01.jpg",
+      "project15/p02.jpg",
+      "project15/p03.jpg",
+      "project15/p04.jpg",
+      "project15/p05.jpg",
+      "project15/p06.jpg",
+      "project15/p07.jpg",
+    ],
+    active: false,
+    status: "finished",
+  },
+];
