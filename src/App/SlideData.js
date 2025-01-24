@@ -1,5 +1,30 @@
 const array = [
   {
+    title: "slide16_title",
+    subtitle: "《鯤島行者》沈浸式展覽",
+    description: "slide16_desc_brife",
+    cover: "project16/cover.jpg",
+    video: "",
+    reserve_link: "no",
+    ticket_link: "https://www.kkday.com/zh-tw/product/126021?cid=12838",
+    ticket_type: "free",
+    ticket_link2:
+      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
+    ticket_type2: "",
+    tag: "兒童劇場(雙語互動劇)",
+    creativeidea: "slide16_createive_idea",
+    credit:
+      '<div class="title">原創故事</div>' +
+      "夢想動畫 MoonShine Animation \n" +
+      "\n" +
+      '<div class="title">製作公司</div>' +
+      "夢境現實 Moondream Reality \n" +
+      "\n",
+    images: [],
+    active: true,
+    status: "finished",
+  },
+  {
     title: "slide14_title",
     subtitle: "懶懶與可可 《第二季：狂歡派對》",
     description: "slide14_desc_brife",
