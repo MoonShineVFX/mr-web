@@ -1,5 +1,33 @@
 const array = [
   {
+    title: "slide17_title",
+    subtitle: "出陣 西仔反",
+    description: "slide17_desc_brife",
+    cover: "project17/cover.jpg",
+    video: "https://www.youtube.com/watch?v=wB0lVpLW3Oo",
+    reserve_link: "no",
+    ticket_link: "https://www.kkday.com/zh-tw/product/126021?cid=12838",
+    ticket_type: "free",
+    ticket_link2:
+      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
+    ticket_type2: "",
+    tag: "沉浸式劇場",
+    creativeidea: "slide16_createive_idea",
+    credit:
+      '<div class="title">指導單位</div>' +
+      "文化部 \n" +
+      "\n" +
+      '<div class="title">製作公司</div>' +
+      "夢想動畫 MoonShine Animation \n" +
+      "\n" +
+      '<div class="title">發行單位</div>' +
+      "國立台灣歷史博物館 \n" +
+      "\n",
+    images: ["project17/p01.jpg"],
+    active: true,
+    status: "finished",
+  },
+  {
     title: "slide16_title",
     subtitle: "《鯤島行者》沈浸式展覽",
     description: "slide16_desc_brife",
@@ -11,14 +39,14 @@ const array = [
     ticket_link2:
       "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
     ticket_type2: "",
-    tag: "兒童劇場(雙語互動劇)",
+    tag: "沉浸式劇場",
     creativeidea: "slide16_createive_idea",
     credit:
-      '<div class="title">原創故事</div>' +
-      "夢想動畫 MoonShine Animation \n" +
+      '<div class="title">主辦單位</div>' +
+      "台南市文化資產管理處 \n" +
       "\n" +
       '<div class="title">製作公司</div>' +
-      "夢境現實 Moondream Reality \n" +
+      "夢想動畫 MoonShine Animation \n" +
       "\n",
     images: [],
     active: true,
