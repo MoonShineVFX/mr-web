@@ -12,7 +12,7 @@ const array = [
       "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
     ticket_type2: "",
     tag: "沉浸式劇場",
-    creativeidea: "slide16_createive_idea",
+    creativeidea: "slide17_createive_idea",
     credit:
       '<div class="title">指導單位</div>' +
       "文化部 \n" +
