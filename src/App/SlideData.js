@@ -17,11 +17,11 @@ const array = [
       '<div class="title">指導單位</div>' +
       "文化部 \n" +
       "\n" +
+      '<div class="title">發行單位</div>' +
+      "國立臺灣歷史博物館 \n" +
+      "\n" +
       '<div class="title">製作公司</div>' +
       "夢想動畫 MoonShine Animation \n" +
-      "\n" +
-      '<div class="title">發行單位</div>' +
-      "國立台灣歷史博物館 \n" +
       "\n",
     images: ["project17/p01.jpg"],
     active: true,
