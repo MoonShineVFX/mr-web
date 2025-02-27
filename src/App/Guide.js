@@ -48,6 +48,11 @@ function Guide() {
               {t(`${currentData.subtitle2}`)}
             </div>
           )}
+          {currentData.subtitle3 && (
+            <div className="table-subtitle">
+              {t(`${currentData.subtitle3}`)}
+            </div>
+          )}
           {isSpecial && (
             <>
               <div

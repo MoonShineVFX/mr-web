@@ -1,5 +1,27 @@
 const array = [
   {
+    title: "slide18_title",
+    subtitle: "夢境冒險王：超能量探險隊",
+    description: "slide18_desc_brife",
+    cover: "project18/cover.jpg",
+    video: "",
+    reserve_link: "no",
+    ticket_link: "https://www.kkday.com/zh-tw/product/126021?cid=12838",
+    ticket_type: "buy",
+    ticket_link2:
+      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
+    ticket_type2: "buyfirst",
+    tag: "親子互動展",
+    creativeidea: "slide18_createive_idea",
+    credit:
+      '<div class="title">製作公司</div>' +
+      "夢境現實 Moondream Reality、MOMO親子台 聯合製作 \n" +
+      "\n",
+    images: ["project18/p01.jpg"],
+    active: true,
+    status: "finished",
+  },
+  {
     title: "slide17_title",
     subtitle: "出陣 西仔反",
     description: "slide17_desc_brife",
