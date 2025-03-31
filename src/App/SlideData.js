@@ -58,7 +58,7 @@ export const array = [
       "夢想動畫 MoonShine Animation \n" +
       "\n",
     images: ["project17/p01.jpg"],
-    active: true,
+    active: false,
     status: "finished",
   },
   {
@@ -84,7 +84,7 @@ export const array = [
       "夢想動畫 MoonShine Animation \n" +
       "\n",
     images: [],
-    active: true,
+    active: false,
     status: "finished",
   },
   {
