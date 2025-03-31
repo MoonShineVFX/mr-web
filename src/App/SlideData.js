@@ -5,7 +5,7 @@ export const array = [
     title: "slide18_title",
     subtitle: "夢境冒險王：超能量探險隊",
     description: "slide18_desc_brife",
-    cover: "project18/cover.jpg",
+    cover: "project18/cover2.jpg",
     video: "",
     reserve_link: "no",
     linetree_status: true,
@@ -20,7 +20,15 @@ export const array = [
       '<div class="title">製作公司</div>' +
       "夢境現實 Moondream Reality、MOMO親子台 聯合製作 \n" +
       "\n",
-    images: ["project18/p01.jpg"],
+    images: [
+      "project18/p01.jpg",
+      "project18/p02.jpg",
+      "project18/p03.jpg",
+      "project18/p04.jpg",
+      "project18/p05.jpg",
+      "project18/p06.jpg",
+      "project18/p07.jpg",
+    ],
     active: true,
     status: "finished",
   },
