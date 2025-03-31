@@ -5,7 +5,7 @@ export const array = [
     title: "slide18_title",
     subtitle: "夢境冒險王：超能量探險隊",
     description: "slide18_desc_brife",
-    cover: "project18/cover2.jpg",
+    cover: "project18/cover3.jpg",
     video: "",
     reserve_link: "no",
     linetree_status: true,
