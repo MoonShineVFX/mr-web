@@ -6,7 +6,7 @@ export const array = [
     subtitle: "夢境冒險王：超能量探險隊",
     description: "slide18_desc_brife",
     cover: "project18/cover3.jpg",
-    video: "",
+    video: "https://www.youtube.com/watch?v=cctVkk1XkL8",
     reserve_link: "no",
     linetree_status: true,
     ticket_link: "https://www.kkday.com/zh-tw/product/126021?cid=12838",
