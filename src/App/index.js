@@ -26,7 +26,7 @@ function App() {
       <Social />
       <Header />
       <FbVideo />
-      <Carousel slides={array} />
+      <Carousel slides={array.filter((item) => item.display)} />
       <Guide />
       <About />
       <Double />

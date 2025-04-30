@@ -31,6 +31,7 @@ export const array = [
     ],
     active: true,
     status: "finished",
+    display: true,
   },
   {
     title: "slide17_title",
@@ -60,6 +61,7 @@ export const array = [
     images: ["project17/p01.jpg"],
     active: false,
     status: "finished",
+    display: false,
   },
   {
     title: "slide16_title",
@@ -86,6 +88,7 @@ export const array = [
     images: [],
     active: false,
     status: "finished",
+    display: false,
   },
   {
     title: "slide14_title",
@@ -118,6 +121,7 @@ export const array = [
     ],
     active: true,
     status: "finished",
+    display: true,
   },
   {
     title: "slide13_title",
@@ -140,6 +144,7 @@ export const array = [
     images: ["project13/p01.jpg"],
     active: true,
     status: "finished",
+    display: true,
   },
   {
     title: "slide12_title",
@@ -159,6 +164,7 @@ export const array = [
     images: ["project12/p01.jpg"],
     active: false,
     status: "finished",
+    display: false,
   },
   {
     title: "slide11_title",
@@ -188,6 +194,7 @@ export const array = [
     ],
     active: true,
     status: "finished",
+    display: true,
   },
   {
     title: "slide10_title",
@@ -213,6 +220,7 @@ export const array = [
     images: ["project10/album/p01.jpg", "project10/album/p02.jpg"],
     active: false,
     status: "finished",
+    display: true,
   },
   {
     title: "slide9_title",
@@ -236,6 +244,7 @@ export const array = [
     images: ["project09/album/p01.jpg", "project09/album/p02.jpg"],
     active: true,
     status: "finished",
+    display: true,
   },
   {
     title: "slide8_title",
@@ -267,6 +276,7 @@ export const array = [
     images: ["project08/album/p01.jpg", "project08/album/p02.jpg"],
     active: false,
     status: "finished",
+    display: false,
   },
   {
     title: "slide7_title",
@@ -291,6 +301,7 @@ export const array = [
     ],
     active: false,
     status: "finished",
+    display: true,
   },
   {
     title: "slide6_title",
@@ -313,6 +324,7 @@ export const array = [
     images: ["project06/album/p01.jpg"],
     active: false,
     status: "finished",
+    display: true,
   },
   {
     title: "slide4_title",
@@ -339,6 +351,7 @@ export const array = [
     ],
     active: false,
     status: "finished",
+    display: true,
   },
   {
     title: "slide2_title",
@@ -361,6 +374,7 @@ export const array = [
     images: ["project02/album/act01.jpg", "project02/album/act03.jpg"],
     active: true,
     status: "finished",
+    display: true,
   },
   {
     title: "slide3_title",
@@ -387,6 +401,7 @@ export const array = [
     ],
     active: true,
     status: "finished",
+    display: true,
   },
   {
     title: "slide5_title",
@@ -413,6 +428,7 @@ export const array = [
     ],
     active: false,
     status: "finished",
+    display: true,
   },
   {
     title: "slide1_title",
@@ -442,6 +458,7 @@ export const array = [
     ],
     active: false,
     status: "finished",
+    display: true,
   },
 ];
 
