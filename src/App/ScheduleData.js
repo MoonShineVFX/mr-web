@@ -81,13 +81,13 @@ export const data_9 = [
   },
 ];
 
-export const month_data = [{ title: "apr_may_title", index: 4 }];
+export const month_data = [{ title: "may_title", index: 4 }];
 
 export const data = [
   {
     id: 5,
-    title: "apr_may_title",
-    subtitle: "apr_may_subtitle",
+    title: "may_title",
+    subtitle: "may_subtitle",
     data: [
       {
         time: "11:00",
@@ -96,12 +96,12 @@ export const data = [
       },
       {
         time: "12:00",
-        show: "show_name_9",
-        title: "guide_category_4",
+        show: "show_name_24",
+        title: "guide_category_8",
       },
       {
         time: "13:00",
-        show: "show_name_19",
+        show: "show_name_18",
         title: "guide_category_4",
       },
       {
@@ -111,8 +111,8 @@ export const data = [
       },
       {
         time: "15:00",
-        show: "show_name_9",
-        title: "guide_category_1",
+        show: "show_name_24",
+        title: "guide_category_8",
       },
       {
         time: "16:00",
