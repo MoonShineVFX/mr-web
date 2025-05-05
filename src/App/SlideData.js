@@ -2,6 +2,41 @@ export const linetree_link = "https://linktr.ee/moondream.tw";
 
 export const array = [
   {
+    title: "slide19_title",
+    subtitle: "康士坦的變化球《眠月線》沉浸式音樂光影展｜春天特別版",
+    description: "slide19_desc_brife",
+    cover: "project19/cover.jpg",
+    video: "https://www.youtube.com/watch?v=iFurR8r-xLg",
+    reserve_link: "no",
+    linetree_status: true,
+    ticket_link: "https://linktr.ee/moondream.tw",
+    ticket_type: "buy",
+    ticket_link2:
+      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
+    ticket_type2: "buyfirst",
+    tag: "MR互動體驗 + 沉浸式劇場",
+    creativeidea: "slide19_createive_idea",
+    credit:
+      "指導單位｜文化部 \n" +
+      "主辦單位｜Kafka by the Sea、FREES \n" +
+      "策展單位｜FREES \n" +
+      "製作｜夢境現實、夢想創造 \n" +
+      "音樂｜康士坦的變化球KST \n",
+    images: [
+      "project19/p01.jpg",
+      "project19/p02.jpg",
+      "project19/p03.jpg",
+      "project19/p04.jpg",
+      "project19/p05.jpg",
+      "project19/p06.jpg",
+      "project19/p07.jpg",
+      "project19/p08.jpg",
+    ],
+    active: true,
+    status: "finished",
+    display: true,
+  },
+  {
     title: "slide18_title",
     subtitle: "夢境冒險王：超能量探險隊",
     description: "slide18_desc_brife",
