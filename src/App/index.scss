@@ -39,6 +39,13 @@ body {
   }
 }
 .container,
+.external-link {
+  color: #ffffff;
+  text-decoration: none;
+  &:hover {
+    color: #ffffff95;
+  }
+}
 .fbvideo-container {
   width: 1036px;
   position: relative;
