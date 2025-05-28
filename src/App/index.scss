@@ -43,7 +43,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   &:hover {
-    color: #ffffff95;
+    color: #ffffff;
   }
 }
 .fbvideo-container {
@@ -474,6 +474,8 @@ body {
       margin-top: 35px;
     }
     .table-subtitle {
+      width: 80%;
+      margin: 0 auto;
       white-space: pre-line;
     }
     .report-content,
