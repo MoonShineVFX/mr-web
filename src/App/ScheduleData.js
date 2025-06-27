@@ -123,12 +123,12 @@ export const data = [
       },
       {
         time: "17:00",
-        show: "show_name_24",
+        show: "show_name_26",
         title: "guide_category_8",
       },
       {
         time: "18:00",
-        show: "show_name_24",
+        show: "show_name_26",
         title: "guide_category_8",
       },
       {
