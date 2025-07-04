@@ -168,7 +168,7 @@ function Report() {
         <div className="item-map">
           <div className="item-title">
             <Trans i18nKey={"mapInfo_title"}>
-              夢境現實 <br /> MR 沈浸式劇院
+              夢境現實 <br /> MR 沉浸式劇院
             </Trans>
           </div>
 

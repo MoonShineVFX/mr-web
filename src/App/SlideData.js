@@ -2,6 +2,37 @@ export const linetree_link = "https://linktr.ee/moondream.tw";
 
 export const array = [
   {
+    title: "slide20_title",
+    subtitle: "夢境冒險王：樂樂的超時空跳跳門",
+    description: "slide20_desc_brife",
+    cover: "project20/cover.jpg",
+    video: "https://www.youtube.com/watch?v=8M0mRKlvkNU",
+    reserve_link: "no",
+    linetree_status: true,
+    ticket_link: "https://linktr.ee/moondream.tw",
+    ticket_type: "buy",
+    ticket_link2:
+      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
+    ticket_type2: "buyfirst",
+    tag: "年度親子互動展",
+    creativeidea: "slide20_createive_idea",
+    credit:
+      '<div class="title">製作公司</div>' +
+      "夢境現實 Moondream Reality \n" +
+      "親子天下 CommonWealth Education Media and Publishing 聯合製作 \n",
+    images: [
+      "project20/p01.jpg",
+      "project20/p02.jpg",
+      "project20/p03.jpg",
+      "project20/p04.jpg",
+      "project20/p05.jpg",
+      "project20/p06.jpg",
+    ],
+    active: true,
+    status: "finished",
+    display: true,
+  },
+  {
     title: "slide19_title",
     subtitle: "康士坦的變化球《眠月線》沉浸式音樂光影展｜春天特別版",
     description: "slide19_desc_brife",
@@ -100,7 +131,7 @@ export const array = [
   },
   {
     title: "slide16_title",
-    subtitle: "《鯤島行者》沈浸式展覽",
+    subtitle: "《鯤島行者》沉浸式展覽",
     description: "slide16_desc_brife",
     cover: "project16/cover.jpg",
     video: "",
