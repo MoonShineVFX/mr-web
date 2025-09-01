@@ -81,15 +81,15 @@ export const data_9 = [
   },
 ];
 
-export const month_data = [{ title: "jul_aug_title", index: 5 }];
+export const month_data = [{ title: "sep_title", index: 5 }];
 
 export const data = [
   {
     id: 5,
-    title: "jul_aug_title",
-    subtitle: "jul_aug_subtitle",
-    subtitle2: "jul_aug_subtitle2",
-    subtitle3: "jul_aug_subtitle3",
+    title: "sep_title",
+    subtitle: "sep_subtitle",
+    subtitle2: "sep_subtitle2",
+    subtitle3: "sep_subtitle3",
     data: [
       {
         time: "11:00",
