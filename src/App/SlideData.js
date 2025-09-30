@@ -2,6 +2,40 @@ export const linetree_link = "https://linktr.ee/moondream.tw";
 
 export const array = [
   {
+    title: "slide21_title",
+    subtitle: "夢境冒險王：美食大冒險",
+    description: "slide21_desc_brife",
+    cover: "project21/cover.jpg",
+    video: "https://www.youtube.com/watch?v=z0OFUZbX8oY",
+    reserve_link: "no",
+    linetree_status: true,
+    ticket_link: "https://linktr.ee/moondream.tw",
+    ticket_type: "buy",
+    ticket_link2:
+      "https://play.niceday.tw/zh-tw/regions/21/search?keyword=%E5%A4%A2%E5%A2%83%E7%8F%BE%E5%AF%A6",
+    ticket_type2: "buyfirst",
+    tag: "年度親子互動展",
+    creativeidea: "slide21_createive_idea",
+    credit:
+      '<div class="title">製作公司</div>' +
+      "夢境現實 Moondream Reality \n" +
+      "小黑啤 Beelu 聯合製作 \n",
+    images: [
+      "project21/p01.jpg",
+      "project21/p02.jpg",
+      "project21/p03.jpg",
+      "project21/p04.jpg",
+      "project21/p05.jpg",
+      "project21/p06.jpg",
+      "project21/p07.jpg",
+      "project21/p08.jpg",
+      "project21/p09.jpg",
+    ],
+    active: true,
+    status: "finished",
+    display: true,
+  },
+  {
     title: "slide20_title",
     subtitle: "夢境冒險王：樂樂的超時空跳跳門",
     description: "slide20_desc_brife",

@@ -81,54 +81,56 @@ export const data_9 = [
   },
 ];
 
-export const month_data = [{ title: "sep_title", index: 5 }];
+export const month_data = [{ title: "oct_nov_title", index: 5 }];
 
 export const data = [
   {
     id: 5,
-    title: "sep_title",
-    subtitle: "sep_subtitle",
-    subtitle2: "sep_subtitle2",
-    subtitle3: "sep_subtitle3",
+    title: "oct_nov_title",
+    subtitle: "oct_nov_subtitle",
+    subtitle2: "oct_nov_subtitle2",
+    subtitle3: "oct_nov_subtitle3",
     data: [
       {
         time: "11:00",
-        show: "show_name_26",
+        show: "show_name_27",
         title: "guide_category_8",
       },
       {
         time: "12:00",
-        show: "show_name_24",
+        show: "show_name_26",
         title: "guide_category_8",
       },
       {
         time: "13:00",
-        show: "show_name_18",
-        title: "guide_category_4",
-      },
-      {
-        time: "14:00",
-        show: "show_name_26",
-        title: "guide_category_8",
-      },
-      {
-        time: "15:00",
         show: "show_name_24",
         title: "guide_category_8",
       },
       {
-        time: "16:00",
-        show: "show_name_19",
-        title: "guide_category_4",
+        time: "14:00",
+        show: "show_name_27",
+        title: "guide_category_8",
       },
       {
-        time: "17:00",
+        time: "15:00",
         show: "show_name_26",
         title: "guide_category_8",
       },
       {
+        time: "16:00",
+        show: "show_name_28",
+        show2: "show_name_29",
+        title: "guide_category_4",
+        title2: "guide_category_4",
+      },
+      {
+        time: "17:00",
+        show: "show_name_27",
+        title: "guide_category_8",
+      },
+      {
         time: "18:00",
-        show: "show_name_26",
+        show: "show_name_27",
         title: "guide_category_8",
       },
       {
