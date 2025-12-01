@@ -3,7 +3,7 @@ export const linetree_link = "https://linktr.ee/moondream.tw";
 export const array = [
   {
     title: "slide21_title",
-    subtitle: "夢境冒險王：美食大冒險",
+    subtitle: "小黑啤美食大冒險",
     description: "slide21_desc_brife",
     cover: "project21/cover.jpg",
     video: "https://www.youtube.com/watch?v=z0OFUZbX8oY",

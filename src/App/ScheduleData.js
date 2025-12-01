@@ -81,70 +81,9 @@ export const data_9 = [
   },
 ];
 
-export const month_data = [
-  { title: "oct_nov_title", index: 5 },
-  { title: "dec_title", index: 6 },
-];
+export const month_data = [{ title: "dec_title", index: 6 }];
 
 export const data = [
-  {
-    id: 5,
-    title: "oct_nov_title",
-    subtitle: "oct_nov_subtitle",
-    subtitle2: "oct_nov_subtitle2",
-    subtitle3: "oct_nov_subtitle3",
-    data: [
-      {
-        time: "11:00",
-        show: "show_name_27",
-        title: "guide_category_8",
-      },
-      {
-        time: "12:00",
-        show: "show_name_26",
-        title: "guide_category_8",
-      },
-      {
-        time: "13:00",
-        show: "show_name_24",
-        title: "guide_category_8",
-      },
-      {
-        time: "14:00",
-        show: "show_name_27",
-        title: "guide_category_8",
-      },
-      {
-        time: "15:00",
-        show: "show_name_26",
-        title: "guide_category_8",
-      },
-      {
-        time: "16:00",
-        show: "show_name_28",
-        show2: "show_name_29",
-        title: "guide_category_4",
-        title2: "guide_category_4",
-      },
-      {
-        time: "17:00",
-        show: "show_name_27",
-        title: "guide_category_8",
-      },
-      {
-        time: "18:00",
-        show: "show_name_27",
-        title: "guide_category_8",
-      },
-      {
-        time: "19:00",
-        show: "show_name_13",
-        title: "guide_category_1",
-        show2: "show_name_6",
-        title2: "guide_category_1",
-      },
-    ],
-  },
   {
     id: 6,
     title: "dec_title",
